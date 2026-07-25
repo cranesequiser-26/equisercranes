@@ -77,19 +77,16 @@ ejecutan por su cuenta. Se documentan aquí como referencia:
 | [JasonHonKL/spy-search](https://github.com/JasonHonKL/spy-search) | Framework de búsqueda/investigación |
 | [brokermr810/quantdinger](https://github.com/brokermr810/quantdinger) | Trading cuantitativo |
 | [decolua/9router](https://github.com/decolua/9router) · [diegosouzapw/OmniRoute](https://github.com/diegosouzapw/OmniRoute) | Routers de LLM |
+| [freecodexyz/free-code](https://github.com/freecodexyz/free-code) · [tashfeenahmed/freellmapi](https://github.com/tashfeenahmed/freellmapi) · [Rishurajgautam24/free-claude-code](https://github.com/Rishurajgautam24/free-claude-code) | Acceso "gratis" a APIs de LLM. ⚠️ Suelen usar proxies/credenciales no autorizados y **pueden violar los ToS del proveedor**. Documentados solo como referencia; no se bundlea código. |
+| [h4ckf0r0day/obscura](https://github.com/h4ckf0r0day/obscura) · [temken/obscura](https://github.com/temken/obscura) | Ofuscación / (temken es librería de física de materia oscura). Referencia. |
+| [respond-io](https://github.com/respond-io) | Organización (no un repo concreto) de mensajería/atención al cliente. |
 | [VoltAgent/awesome-agent-skills](https://github.com/VoltAgent/awesome-agent-skills) | Lista curada de agent skills (índice, no skills en sí) |
 
 ## Excluido a propósito
 
-Estos repositorios de la lista **no se integraron** por motivos de seguridad y de
-términos de servicio:
-
 | Repositorio | Motivo |
 |---|---|
-| [elder-plinius/G0DM0D3](https://github.com/elder-plinius/G0DM0D3) | Repo de *jailbreak / "godmode"* para saltarse las salvaguardas de modelos de IA. No se integra. |
-| freecodexyz/free-code · tashfeenahmed/freellmapi · Rishurajgautam24/free-claude-code | Herramientas para obtener acceso "gratis" a APIs de LLM, típicamente vía credenciales/proxies no autorizados (violan ToS). |
-| h4ckf0r0day/obscura · temken/obscura | Ambiguos/uso de ofuscación-vigilancia; `temken/obscura` es de física (dark matter) y no aporta skills. Fuera del alcance. |
-| respond-io | Enlace a una organización, no a un repositorio concreto. |
+| [elder-plinius/G0DM0D3](https://github.com/elder-plinius/G0DM0D3) | Repo de *jailbreak / "godmode"* para saltarse las salvaguardas de modelos de IA. **No se integra.** |
 
 ## Estructura
 
