@@ -1,7 +1,7 @@
 # Catálogo de skills activos
 
 
-220 skills en `.claude/skills/`, disponibles automáticamente en Claude Code.
+272 skills en `.claude/skills/`, disponibles automáticamente en Claude Code.
 
 
 | Skill | Descripción |
@@ -35,10 +35,13 @@
 | `caveman-help` | > |
 | `caveman-review` | > |
 | `caveman-stats` | > |
+| `characteristic-voice` | Use this skill whenever the user wants speech to sound more human, companion-like, or emotionally expressive. Triggers include: any mention of 'say like', 'talk like', 'speak like', 'companion voice', |
+| `chat-with-anyone` | Chat with any real person or fictional character in their own voice by automatically finding their speech online, extracting a clean reference sample, and generating audio replies. Also supports gener |
 | `churn-prevention` | When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' ' |
 | `ci-cd-and-automation` | Automates CI/CD pipeline setup. Use when setting up or modifying build and deployment pipelines. Use when you need to automate quality gates, configure test runners in CI, or establish deployment stra |
 | `claude-api` | \|- |
 | `claude-handoff` | Hand the current conversation off to a fresh background agent that picks up the work immediately. |
+| `close-session` | End-of-session ritual — audit today's patterns against accumulated memory, propose promotions, refresh MEMORY.md, and write the session handoff. Use when the user says "/close-session", "закрой сессию |
 | `co-marketing` | When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who sho |
 | `code-review` | Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match wha |
 | `code-review-and-quality` | Conducts multi-axis code review. Use before merging any change. Use when reviewing code written by yourself, another agent, or a human. Use when you need to assess code quality across multiple dimensi |
@@ -48,6 +51,7 @@
 | `community-marketing` | Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, |
 | `competitor-profiling` | When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this comp |
 | `competitors` | When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparis |
+| `component-refactoring` | Refactor high-complexity React components in Dify frontend. Use when `pnpm analyze-component --json` shows complexity > 50 or lineCount > 300, when the user asks for code splitting, hook extraction, o |
 | `content-strategy` | When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions "content strategy," "what should I write about," "con |
 | `context-engineering` | Optimizes agent context setup. Use when starting a new session, when agent output quality degrades, when switching between tasks, or when you need to configure rules files and context for a project. |
 | `copy-editing` | When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,'  |
@@ -55,6 +59,7 @@
 | `code-review` | AI-powered code review using CodeRabbit. Default code-review skill. Trigger for any explicit review request AND autonomously when the agent thinks a review is needed (code/PR/quality/security). |
 | `cro` | When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. |
 | `customer-research` | When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions "customer research," "ICP research," "talk to customers," "analyze transcripts," "customer intervie |
+| `daily-news-caster` | Fetches the latest news using news-aggregator-skill, formats it into a podcast script in Markdown format, and uses the tts skill to generate a podcast audio file. Use when the user asks to get the lat |
 | `database-driver-design` | Expert guidance on building Swift database client libraries. Use when developers mention: (1) building a database driver, (2) wire protocol implementation, (3) connection pooling design, (4) state mac |
 | `debugging-and-error-recovery` | Guides systematic root-cause debugging. Use when tests fail, builds break, behavior doesn't match expectations, or you encounter any unexpected error. Use when you need a systematic approach to findin |
 | `deckset` | Example for using Deckset to create Markdown presentations |
@@ -114,11 +119,28 @@
 | `influencer-marketing` | When the user wants to run influencer, creator, or ambassador partnerships to promote their product — finding and vetting partners, structuring deals, briefing creators, disclosure compliance, and mea |
 | `internal-comms` | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal com |
 | `interview-me` | Extracts what the user actually wants instead of what they think they should want. Achieves this through one-question-at-a-time interview until ~95% confidence about the underlying intent. Use when an |
+| `ios-simulator-skill` | 29 production-ready scripts for iOS app testing, building, and automation. Provides semantic UI navigation, build automation, accessibility testing, and simulator lifecycle management. Optimized for A |
 | `json-canvas` | Create and edit JSON Canvas files (.canvas) with nodes, edges, groups, and connections. Use when working with .canvas files, creating visual canvases, mind maps, flowcharts, or when the user mentions  |
 | `launch` | When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'b |
 | `lead-magnets` | When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions "lead magnet," "gated content," "content upgrade," "downloadable,"  |
 | `linear` | Linear CLI for issue tracking and project management. Use when developers mention: (1) Linear issues or tickets, (2) issue tracking or task management, (3) WDY team issues, (4) closing, updating, or t |
+| `linkedin` | General-purpose LinkedIn automation – fetch profiles, search people and companies, send messages, manage connections, create posts, and more. Use when the user wants to interact with LinkedIn. |
+| `linkedin-growth` | Two-phase LinkedIn lead pipeline driven by linkedin-cli. Phase A imports leads from a search URL or filters, qualifies them against a configurable ICP via sub-agent, and stores them in a local SQLite  |
 | `loop-me` | Grill me about specs for the workflows I want to build, within this workspace. |
+| `makepad-2.0-animation` | \| |
+| `makepad-2.0-app-structure` | \| |
+| `makepad-2.0-design-judgment` | \| |
+| `makepad-2.0-dsl` | \| |
+| `makepad-2.0-events` | \| |
+| `makepad-2.0-layout` | \| |
+| `makepad-2.0-migration` | \| |
+| `makepad-2.0-performance` | \| |
+| `makepad-2.0-shaders` | \| |
+| `makepad-2.0-splash` | \| |
+| `makepad-2.0-theme` | \| |
+| `makepad-2.0-troubleshooting` | \| |
+| `makepad-2.0-vector` | \| |
+| `makepad-2.0-widgets` | \| |
 | `marketing-council` | When the user wants multiple expert perspectives on a marketing question — a simulated board of advisors staffed by legendary marketers (Seth Godin, David Ogilvy, Eugene Schwartz, April Dunford, Rory  |
 | `marketing-ideas` | When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strat |
 | `marketing-loops` | When the user wants to set up a recurring, self-running marketing workflow — a repeatable loop an AI agent runs on a cadence (weekly, daily, on a trigger) rather than a one-off task. Also use when the |
@@ -128,6 +150,7 @@
 | `migrate-to-shoehorn` | Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data. |
 | `minimalist-ui` | Clean editorial-style interfaces. Warm monochrome palette, typographic contrast, flat bento grids, muted pastels. No gradients, no heavy shadows. |
 | `napkin` | \| |
+| `notebooklm` | Use this skill to query your Google NotebookLM notebooks directly from Claude Code for source-grounded, citation-backed answers from Gemini. Browser automation, library management, persistent auth. Dr |
 | `observability-and-instrumentation` | Instruments code so production behavior is visible and diagnosable. Use when adding logging, metrics, tracing, or alerting. Use when shipping any feature that runs in production and you need evidence  |
 | `obsidian-bases` | Create and edit Obsidian Bases (.base files) with views, filters, formulas, and summaries. Use when working with .base files, creating database-like views of notes, or when the user mentions Bases, ta |
 | `obsidian-cli` | Interact with Obsidian vaults using the Obsidian CLI to read, create, search, and manage notes, tasks, properties, and more. Also supports plugin and theme development with commands to reload plugins, |
@@ -150,6 +173,7 @@
 | `postgres-nio` | Expert guidance on using PostgreSQL with Swift. Use when developers mention: (1) PostgreSQL or Postgres in Swift, (2) postgres-nio library, (3) SQL queries in Swift, (4) PostgreSQL connection pooling, |
 | `pptx` | Use this skill any time a .pptx or .potx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting te |
 | `pricing` | When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase |
+| `product-manager-skills` | PM skill for Claude Code, Codex, Cursor, and Windsurf. Diagnoses SaaS metrics, critiques PRDs, plans roadmaps, runs discovery, coaches PM career transitions, pressure-tests AI product decisions, and d |
 | `product-marketing` | When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my ta |
 | `programmatic-seo` | When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions "programmatic SEO," "template pages," "pages at scale," "directory pages," "location p |
 | `prospecting` | When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions "prospecting," "build a p |
@@ -179,8 +203,11 @@
 | `sms` | When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use wh |
 | `social` | When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engageme |
 | `high-end-visual-design` | Teaches the AI to design like a high-end agency. Defines the exact fonts, spacing, shadows, card structures, and animations that make a website feel expensive. Blocks all the common defaults that make |
+| `sound-fx` | Use this skill whenever the user wants to generate sound effects, ambient audio, or short audio clips from a text description. Triggers include: any mention of 'sound effect', 'sfx', 'generate sound', |
 | `source-driven-development` | Grounds every implementation decision in official documentation. Use when you want authoritative, source-cited code free from outdated patterns. Use when building with any framework or library where c |
 | `spec-driven-development` | Creates specs before coding. Use when starting a new project, feature, or significant change and no specification exists yet. Use when requirements are unclear, ambiguous, or only exist as a vague ide |
+| `speech-to-text` | Use this skill whenever the user wants to transcribe audio to text, convert speech to text, or get a transcript from an audio or video file. Triggers include: any mention of 'transcribe', 'transcripti |
+| `speed` | Launch RSVP speed reader for text |
 | `stitch-design-taste` | Semantic Design System Skill for Google Stitch. Generates agent-friendly DESIGN.md files that enforce premium, anti-generic UI standards — strict typography, calibrated color, asymmetric layouts, perp |
 | `subagent-driven-development` | Use when executing implementation plans with independent tasks in the current session |
 | `swift` | Expert guidance on Swift best practices, patterns, and implementation. Use when developers mention: (1) Swift configuration or environment variables, (2) swift-log or logging patterns, (3) OpenTelemet |
@@ -193,24 +220,48 @@
 | `design-taste-frontend-v1` | The original v1 taste-skill, preserved for projects depending on its exact behavior. The current default is `design-taste-frontend` (v2 experimental), which is a substantial rewrite. Use this v1 insta |
 | `tdd` | Test-driven development. Use when the user wants to build features or fix bugs test-first, mentions "red-green-refactor", or wants integration tests. |
 | `teach` | Teach the user a new skill or concept, within this workspace. |
+| `template-skill` | Reusable template for authoring new Agent Skills with clear triggers, workflow, and I/O contracts. |
+| `terraform-skill` | Use when writing, reviewing, or debugging Terraform/OpenTofu modules, tests, CI, scans, or state ops - diagnoses failure mode (identity churn, secrets, blast radius, CI drift, state corruption) with v |
 | `test-driven-development` | Use when implementing any feature or bugfix, before writing implementation code |
 | `theme-factory` | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact t |
+| `threejs-animation` | Three.js animation - keyframe animation, skeletal animation, morph targets, animation mixing. Use when animating objects, playing GLTF animations, creating procedural motion, or blending animations. |
+| `threejs-fundamentals` | Three.js scene setup, cameras, renderer, Object3D hierarchy, coordinate systems. Use when setting up 3D scenes, creating cameras, configuring renderers, managing object hierarchies, or working with tr |
+| `threejs-geometry` | Three.js geometry creation - built-in shapes, BufferGeometry, custom geometry, instancing. Use when creating 3D shapes, working with vertices, building custom meshes, or optimizing with instanced rend |
+| `threejs-interaction` | Three.js interaction - raycasting, controls, mouse/touch input, object selection. Use when handling user input, implementing click detection, adding camera controls, or creating interactive 3D experie |
+| `threejs-lighting` | Three.js lighting - light types, shadows, environment lighting. Use when adding lights, configuring shadows, setting up IBL, or optimizing lighting performance. |
+| `threejs-loaders` | Three.js asset loading - GLTF, textures, images, models, async patterns. Use when loading 3D models, textures, HDR environments, or managing loading progress. |
+| `threejs-materials` | Three.js materials - PBR, basic, phong, shader materials, material properties. Use when styling meshes, working with textures, creating custom shaders, or optimizing material performance. |
+| `threejs-postprocessing` | Three.js post-processing - EffectComposer, bloom, DOF, screen effects. Use when adding visual effects, color grading, blur, glow, or creating custom screen-space shaders. |
+| `threejs-shaders` | Three.js shaders - GLSL, ShaderMaterial, uniforms, custom effects. Use when creating custom visual effects, modifying vertices, writing fragment shaders, or extending built-in materials. |
+| `threejs-textures` | Three.js textures - texture types, UV mapping, environment maps, texture settings. Use when working with images, UV coordinates, cubemaps, HDR environments, or texture optimization. |
 | `to-questionnaire` | Turn a decision you can't fully answer into a questionnaire for someone else to fill in. |
 | `to-spec` | Turn the current conversation into a spec and publish it to the project issue tracker — no interview, just synthesis of what you've already discussed. |
 | `to-tickets` | Break a plan, spec, or the current conversation into a set of tracer-bullet tickets, each declaring its blocking edges, published to the configured tracker — edges as text in one file per ticket local |
 | `token-coach` | \| |
 | `token-dashboard` | Open the Token Optimizer dashboard. Collects latest session data, regenerates the dashboard, and opens it in your browser. |
 | `token-optimizer` | Find the ghost tokens. Audit Claude Code or Codex setup, see where context goes, fix it. Use when context feels tight. |
+| `tour` | Interactive walkthrough of the Memory Kit system using the user's actual project files |
 | `triage` | Move issues and external PRs through a state machine of triage roles — categorise, verify, grill if needed, and write agent-ready briefs. |
+| `tts` | Use this skill whenever the user wants to convert text into speech, generate audio from text, or produce voiceovers. Triggers include: any mention of 'TTS', 'text to speech', 'speak', 'say', 'voice',  |
 | `ui-styling` | Create beautiful, accessible user interfaces with shadcn/ui components (built on Radix UI + Tailwind), Tailwind CSS utility-first styling, and canvas-based visual designs. Use when building user inter |
 | `ui-ux-pro-max` | UI/UX design intelligence for web and mobile. Searchable local database with 84 styles, 192 color palettes, 74 font pairings, 192 product types, 98 UX guidelines, 104 icon entries, 16 GSAP motion pres |
+| `unslop` | > |
+| `unslop-commit` | > |
+| `unslop-file` | > |
+| `unslop-help` | > |
+| `unslop-reasoning` | > |
+| `unslop-review` | > |
 | `using-agent-skills` | Discovers and invokes agent skills. Use when starting a session or when you need to discover which skill applies to the current task. This is the meta-skill that governs how all other skills are disco |
 | `using-git-worktrees` | Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback |
 | `using-superpowers` | Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions |
+| `vercel-react-best-practices` | React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patter |
 | `verification-before-completion` | Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence |
+| `VibeSec-Skill` | This skill helps Claude write secure web applications. Use this when working on any web application or when a user requests a scan or audit to ensure security best practices are followed. |
 | `video` | When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,'  |
+| `video-translation` | Translate and dub videos from one language to another, replacing the original audio with TTS while keeping the video intact. |
 | `wayfinder` | Plan a huge chunk of work — more than one agent session can hold — as a shared map of decision tickets on your issue tracker, and resolve them one at a time until the way to the destination is clear. |
 | `web-artifacts-builder` | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state manag |
+| `web-design-guidelines` | Review UI code for Web Interface Guidelines compliance. Use when asked to "review my UI", "check accessibility", "audit design", "review UX", or "check my site against best practices". |
 | `webapp-testing` | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser l |
 | `wendy` | Expert guidance on building and deploying apps to WendyOS edge devices. Use when developers mention: (1) Wendy or WendyOS, (2) wendy CLI commands, (3) wendy.json or entitlements, (4) deploying apps to |
 | `wendy-cloud-testing` | Wendy Cloud testing skill — supplies test commands, stack setup, and failure-mode knowledge for the cloud monorepo. Use when: (1) running Swift broker or Go services integration tests, (2) checking wh |
@@ -219,6 +270,7 @@
 | `wendy-lite` | Expert guidance on building WASM apps for Wendy Lite MCU firmware on ESP32-C6. Use when developers mention: (1) Wendy Lite or wendy-lite, (2) WASM apps on ESP32 or microcontrollers, (3) WendyLite Swif |
 | `wendy-swift` | Curated Swift package ecosystem for WendyOS and Linux. Use when developers mention: (1) Swift packages for Linux or ARM64/AMD64, (2) choosing a Swift library, (3) Swift Package Index, (4) swiftpackage |
 | `wizard` | Generate an interactive bash wizard that walks a human through a manual procedure — third-party setup, a one-off migration, an A→B state transition — opening URLs, capturing values, confirming each st |
+| `world-builder` | Create and manage generative game zones for Dorothy's Pokemon-style world. Use this skill when creating, updating, or designing game worlds via MCP tools. |
 | `writing-beats` | Writing, exploit — assemble raw material into a journey of beats, grounding each term before a beat leans on it. |
 | `writing-fragments` | Writing, explore — mine raw fragments, no structure yet. |
 | `writing-great-skills` | Reference for writing and editing skills well — the vocabulary and principles that make a skill predictable. |

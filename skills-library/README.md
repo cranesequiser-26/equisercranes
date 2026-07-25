@@ -10,45 +10,582 @@ cp -R skills-library/<coleccion>/<nombre-skill> .claude/skills/
 ```
 
 
-## Cybersecurity (817 skills)
+## aso (40 skills)
+
+App Store Optimization: iOS/Android, keywords, iconos, reseñas. Fuente: `Eronred/aso-skills`.
+
+<details><summary>Ver los 40 skills</summary>
+
+- `ab-test-store-listing`
+- `android-aso`
+- `app-analytics`
+- `app-clips`
+- `app-icon-optimization`
+- `app-launch`
+- `app-marketing-context`
+- `app-preview-video`
+- `app-rejection-recovery`
+- `app-store-featured`
+- `apple-search-ads`
+- `asc-metrics`
+- `aso-audit`
+- `aso-router`
+- `attribution-setup`
+- `category-positioning`
+- `competitor-analysis`
+- `competitor-tracking`
+- `crash-analytics`
+- `creator-ugc-marketing`
+- `custom-product-pages`
+- `in-app-events`
+- `keyword-research`
+- `localization`
+- `market-movers`
+- `market-pulse`
+- `metadata-optimization`
+- `monetization-strategy`
+- `onboarding-optimization`
+- `paywall-optimization`
+- `press-and-pr`
+- `rating-prompt-strategy`
+- `referral-program`
+- `retention-optimization`
+- `review-management`
+- `screenshot-optimization`
+- `seasonal-aso`
+- `subscription-lifecycle`
+- `ua-campaign`
+- `web-to-app-funnel`
+
+</details>
+
+
+## bootstrap (68 skills)
+
+Bootstrap de apps: auth, pagos, analytics, Firebase, Supabase, deploy…. Fuente: `alinaqi/claude-bootstrap`.
+
+<details><summary>Ver los 68 skills</summary>
+
+- `aeo-optimization`
+- `agent-teams`
+- `agentic-development`
+- `ai-models`
+- `android-java`
+- `android-kotlin`
+- `autonomous-testing`
+- `aws-aurora`
+- `aws-dynamodb`
+- `azure-cosmosdb`
+- `base`
+- `build-in-public`
+- `cloudflare-d1`
+- `code-deduplication`
+- `code-graph`
+- `code-review`
+- `codex-review`
+- `commit-hygiene`
+- `council-review`
+- `cpg-analysis`
+- `credentials`
+- `cross-agent-delegation`
+- `database-schema`
+- `existing-repo`
+- `external-model-delegation`
+- `firebase`
+- `flutter`
+- `gemini-review`
+- `icpg`
+- `iterative-development`
+- `klaviyo`
+- `llm-patterns`
+- `maggy`
+- `medusa`
+- `mnemos`
+- `model-routing`
+- `ms-teams-apps`
+- `nodejs-backend`
+- `playwright-testing`
+- `polyphony`
+- `posthog-analytics`
+- `project-tooling`
+- `pwa-development`
+- `python`
+- `react-native`
+- `react-web`
+- `reddit-ads`
+- `reddit-api`
+- `security`
+- `session-management`
+- `shopify-apps`
+- `site-architecture`
+- `supabase`
+- `supabase-nextjs`
+- `supabase-node`
+- `supabase-python`
+- `team-coordination`
+- `ticket-craft`
+- `typescript`
+- `ui-mobile`
+- `ui-testing`
+- `ui-web`
+- `user-journeys`
+- `visual-validation`
+- `web-content`
+- `web-payments`
+- `woocommerce`
+- `workspace`
+
+</details>
+
+
+## business (343 skills)
+
+Negocio, finanzas, C-level, product, engineering, compliance, research. Fuente: `alirezarezvani/claude-skills`.
+
+<details><summary>Ver los 343 skills</summary>
+
+- `a11y-audit`
+- `ab-test-setup`
+- `ad-creative`
+- `adversarial-reviewer`
+- `aeo`
+- `agent-decision-receipts`
+- `agent-designer`
+- `agent-harness`
+- `agent-protocol`
+- `agent-workflow-designer`
+- `agenthub`
+- `agile-product-owner`
+- `ai-act-readiness`
+- `ai-security`
+- `aims-audit`
+- `analytics-tracking`
+- `andreessen`
+- `api-design-reviewer`
+- `api-test-suite-builder`
+- `app-store-optimization`
+- `apple-hig-expert`
+- `arquiteto-de-empresa`
+- `atlassian-admin`
+- `atlassian-templates`
+- `autoresearch-agent`
+- `aws-solution-architect`
+- `azure-cloud-architect`
+- `behuman`
+- `board`
+- `board-deck-builder`
+- `board-meeting`
+- `board-prep`
+- `boardroom`
+- `brand-guidelines`
+- `brief`
+- `browser-automation`
+- `browserstack`
+- `business-growth-skills`
+- `business-investment-advisor`
+- `business-operations-skills`
+- `c-level-agents`
+- `c-level-skills`
+- `caio-review`
+- `campaign-analytics`
+- `capa-officer`
+- `capacity-planner`
+- `capture`
+- `caveman`
+- `cco-review`
+- `cdo-review`
+- `ceo-advisor`
+- `cfo-advisor`
+- `cfo-review`
+- `challenge`
+- `change-management`
+- `changelog-generator`
+- `channel-economics`
+- `chaos-engineering`
+- `chief-ai-officer-advisor`
+- `chief-customer-officer-advisor`
+- `chief-data-officer-advisor`
+- `chief-of-staff`
+- `chro-advisor`
+- `churn-prevention`
+- `ci-cd-pipeline-builder`
+- `ciso-advisor`
+- `ciso-review`
+- `claude-coach`
+- `clinical-research`
+- `cloud-security`
+- `cmo-advisor`
+- `cmo-review`
+- `code-reviewer`
+- `code-to-prd`
+- `code-tour`
+- `codebase-onboarding`
+- `cold-email`
+- `collab-proof`
+- `commercial-forecaster`
+- `commercial-policy`
+- `commercial-skills`
+- `company-os`
+- `competitive-intel`
+- `competitive-teardown`
+- `competitor-alternatives`
+- `compliance-os`
+- `compliance-readiness`
+- `confluence-expert`
+- `content-creator`
+- `content-humanizer`
+- `content-production`
+- `content-strategy`
+- `context-engine`
+- `contract-and-proposal-writer`
+- `coo-advisor`
+- `copy-editing`
+- `copywriting`
+- `coverage`
+- `cpo-advisor`
+- `cpo-review`
+- `cro-advisor`
+- `cro-review`
+- `cross-eval`
+- `cs-onboard`
+- `cto-advisor`
+- `cto-review`
+- `culture-architect`
+- `customer-success-manager`
+- `data-quality-auditor`
+- `database-designer`
+- `database-schema-designer`
+- `deal-desk`
+- `decide`
+- `decision-logger`
+- `deep-research`
+- `deep-work`
+- `demo-video`
+- `dependency-auditor`
+- `design-system`
+- `docker-development`
+- `dossier`
+- `email-sequence`
+- `email-template-builder`
+- `engineering-advanced-skills`
+- `engineering-skills`
+- `env-secrets-manager`
+- `epic-design`
+- `eu-ai-act-specialist`
+- `eval`
+- `execute`
+- `executive-mentor`
+- `experiment-designer`
+- `extract`
+- `fable-goal`
+- `fda-consultant-specialist`
+- `fda-qsr-audit-prep`
+- `feature-flags-architect`
+- `finance-skills`
+- `financial-analyst`
+- `fix`
+- `focused-fix`
+- `form-cro`
+- `founder-coach`
+- `founder-mode`
+- `free-tool-strategy`
+- `freeze`
+- `full-page-screenshot`
+- `gc-review`
+- `gcp-cloud-architect`
+- `gdpr-audit-prep`
+- `gdpr-dsgvo-expert`
+- `general-counsel-advisor`
+- `generate`
+- `git-worktree-manager`
+- `google-workspace-cli`
+- `grants`
+- `grill-me`
+- `grill-with-docs`
+- `handoff`
+- `hard-call`
+- `helm-chart-builder`
+- `inbox-setup`
+- `inbox-triage`
+- `incident-commander`
+- `incident-response`
+- `information-security-manager-iso27001`
+- `init`
+- `internal-comms`
+- `internal-narrative`
+- `interview-system-designer`
+- `intl-expansion`
+- `isms-audit-expert`
+- `iso13485-audit-prep`
+- `iso27001-audit-prep`
+- `iso42001-specialist`
+- `jira-expert`
+- `karpathy-coder`
+- `knowledge-ops`
+- `kubernetes-operator`
+- `landing`
+- `landing-page-generator`
+- `launch-strategy`
+- `litreview`
+- `llm-cost-optimizer`
+- `llm-wiki`
+- `local-seo-manager`
+- `loop`
+- `ma-playbook`
+- `markdown-html-orchestrator`
+- `market-research`
+- `marketing-context`
+- `marketing-demand-acquisition`
+- `marketing-ideas`
+- `marketing-ops`
+- `marketing-psychology`
+- `marketing-skills`
+- `marketing-strategy-pmm`
+- `mcp-server-builder`
+- `md-document`
+- `md-review`
+- `md-slides`
+- `mdr-745-specialist`
+- `meeting-analyzer`
+- `meetings`
+- `memory-review`
+- `memory-status`
+- `merge`
+- `migrate`
+- `migration-architect`
+- `monorepo-navigator`
+- `ms365-tenant-manager`
+- `named-persona-adversarial-review`
+- `notebooklm`
+- `observability-designer`
+- `office-hours`
+- `onboard`
+- `onboarding-cro`
+- `org-health-diagnostic`
+- `page-cro`
+- `paid-ads`
+- `partnerships-architect`
+- `patent`
+- `paywall-upgrade-cro`
+- `performance-profiler`
+- `playwright-pro`
+- `pm-skills`
+- `popup-cro`
+- `post-mortem`
+- `postmortem`
+- `pr-review-expert`
+- `pricing-strategist`
+- `pricing-strategy`
+- `process-mapper`
+- `procurement-optimizer`
+- `product-analytics`
+- `product-discovery`
+- `product-manager-toolkit`
+- `product-research`
+- `product-skills`
+- `product-strategist`
+- `programmatic-seo`
+- `promote`
+- `prompt-engineer-toolkit`
+- `prompt-governance`
+- `pulse`
+- `qms-audit-expert`
+- `quality-documentation-manager`
+- `quality-manager-qmr`
+- `quality-manager-qms-iso13485`
+- `ra-qm-skills`
+- `rag-architect`
+- `red-team`
+- `referral-program`
+- `reflect`
+- `regulatory-affairs-head`
+- `remember`
+- `report`
+- `research`
+- `research-finance`
+- `research-ops-skills`
+- `research-summarizer`
+- `resume`
+- `revenue-operations`
+- `review`
+- `rfp-responder`
+- `risk-management-specialist`
+- `roadmap-communicator`
+- `roast`
+- `run`
+- `runbook-generator`
+- `saas-metrics-coach`
+- `saas-scaffolder`
+- `sales-engineer`
+- `sample-skill`
+- `scenario-war-room`
+- `schema-markup`
+- `scrum-master`
+- `secrets-vault-manager`
+- `security-guidance`
+- `security-pen-testing`
+- `self-eval`
+- `self-improving-agent`
+- `senior-architect`
+- `senior-backend`
+- `senior-computer-vision`
+- `senior-data-engineer`
+- `senior-data-scientist`
+- `senior-devops`
+- `senior-frontend`
+- `senior-fullstack`
+- `senior-ml-engineer`
+- `senior-pm`
+- `senior-prompt-engineer`
+- `senior-qa`
+- `senior-secops`
+- `senior-security`
+- `seo-audit`
+- `setup`
+- `ship-gate`
+- `signup-flow-cro`
+- `site-architecture`
+- `skill-security-auditor`
+- `skill-tester`
+- `skillopt-sleep`
+- `slo-architect`
+- `snowflake-development`
+- `soc2-audit-prep`
+- `soc2-compliance`
+- `social-content`
+- `social-media-analyzer`
+- `social-media-manager`
+- `spawn`
+- `spec-driven-workflow`
+- `spec-to-repo`
+- `sql-database-assistant`
+- `statistical-analyst`
+- `status`
+- `strategic-alignment`
+- `stress-test`
+- `stripe-integration-expert`
+- `syllabus`
+- `tc-tracker`
+- `tdd-guide`
+- `team-communications`
+- `tech-debt-tracker`
+- `tech-stack-evaluator`
+- `terraform-patterns`
+- `testrail`
+- `threat-detection`
+- `ui-design-system`
+- `universal-scraping-architect`
+- `ux-researcher-designer`
+- `vendor-management`
+- `video-content-strategist`
+- `vpe-advisor`
+- `vpe-review`
+- `webinar-marketing`
+- `weekly-review`
+- `workflow-builder`
+- `write-a-skill`
+- `x-twitter-growth`
+- `youtube-full`
+- `zero-hallucination-coder`
+
+</details>
+
+
+## context-engineering (68 skills)
+
+Context engineering: review, planning, memoria, orquestación. Fuente: `NeoLabHQ/context-engineering-kit`.
+
+<details><summary>Ver los 68 skills</summary>
+
+- `actualize`
+- `add-task`
+- `agent-evaluation`
+- `analyse`
+- `analyse-problem`
+- `analyze-issue`
+- `apply-anthropic-skill-best-practices`
+- `attach-review-to-pr`
+- `brainstorm`
+- `build-mcp`
+- `cause-and-effect`
+- `commit`
+- `context-engineering`
+- `create-agent`
+- `create-command`
+- `create-hook`
+- `create-ideas`
+- `create-pr`
+- `create-rule`
+- `create-skill`
+- `create-workflow-command`
+- `critique`
+- `decay`
+- `design-testing-strategy`
+- `do-and-judge`
+- `do-competitively`
+- `do-in-parallel`
+- `do-in-steps`
+- `fix-tests`
+- `git-notes`
+- `git-worktrees`
+- `implement-task`
+- `judge`
+- `judge-with-debate`
+- `kaizen`
+- `launch-sub-agent`
+- `load-issues`
+- `load-pr-comments`
+- `memorize`
+- `multi-agent-patterns`
+- `plan-do-check-act`
+- `plan-task`
+- `prompt-engineering`
+- `propose-hypotheses`
+- `query`
+- `reflect`
+- `reset`
+- `resolve-fixed-pr-comments`
+- `review-local-changes`
+- `review-pr`
+- `root-cause-tracing`
+- `setup-arxiv-mcp`
+- `setup-codemap-cli`
+- `setup-context7-mcp`
+- `setup-serena-mcp`
+- `status`
+- `subagent-driven-development`
+- `test-coverage`
+- `test-driven-development`
+- `test-prompt`
+- `test-skill`
+- `thought-based-reasoning`
+- `traiage-review`
+- `tree-of-thoughts`
+- `update-docs`
+- `why`
+- `write-concisely`
+- `write-tests`
+
+</details>
+
+
+## cybersecurity (762 skills)
 
 SOC, DFIR, threat hunting, detección, hardening, compliance. Fuente: `mukul975/Anthropic-Cybersecurity-Skills`.
 
-<details><summary>Ver los 817 skills</summary>
+<details><summary>Ver los 762 skills</summary>
 
 - `Abuse of Public-Facing API: Mobile API Abuse`
 - `Access with Stolen Session Cookie`
-- `Access with Stolen Session Cookie`
-- `Access with Stolen Session Cookie`
-- `Access with Stolen Session Cookie`
 - `Account Access Removal`
-- `Account Manipulation`
-- `Account Manipulation`
 - `Account Manipulation`
 - `Account Manipulation: Account Linking`
 - `Account Manipulation: Add Authorized User`
 - `Account Manipulation: Change Account Details`
 - `Account Manipulation: Change of Payment Details`
 - `Account Manipulation: Enable Account Features`
-- `Account Manipulation: Enable Account Features`
-- `Account Takeover`
-- `Account Takeover`
-- `Account Takeover`
-- `Account Takeover`
-- `Account Takeover`
-- `Account Takeover`
-- `Account Takeover`
 - `Account Takeover`
 - `Account Takeover: Exposed API Key`
-- `Account Takeover: Exposed Login Credential`
-- `Account Takeover: Exposed Login Credential`
-- `Account Takeover: Exposed Login Credential`
-- `Account Takeover: Exposed Login Credential`
-- `Account Takeover: Exposed Login Credential`
-- `Account Takeover: Exposed Login Credential`
-- `Account Takeover: Exposed Login Credential`
-- `Account Takeover: Exposed Login Credential`
-- `Account Takeover: Exposed Login Credential`
 - `Account Takeover: Exposed Login Credential`
 - `Account Takeover: Password Reset`
 - `Adversary-in-the-Browser: Malicious JavaScript Injection`
@@ -57,58 +594,25 @@ SOC, DFIR, threat hunting, detección, hardening, compliance. Fuente: `mukul975/
 - `Brute Force:  Credential Stuffing`
 - `Brute Force: Password Cracking`
 - `Conversion to Physical Monetary Instruments: Cash`
-- `Conversion to Physical Monetary Instruments: Cash`
-- `Conversion to Physical Monetary Instruments: Cash`
-- `Conversion to Physical Monetary Instruments: Cash`
-- `Conversion to Physical Monetary Instruments: Cash`
 - `Convert to Cryptocurrency`
-- `Convert to Cryptocurrency`
-- `Convert to Cryptocurrency`
-- `Create Fake Materials: Fake Website`
-- `Create Fake Materials: Fake Website`
-- `Create Fake Materials: Fake Website`
-- `Create Fake Materials: Fake Website`
-- `Create Fake Materials: Fake Website`
-- `Create Fake Materials: Fake Website`
-- `Create Fake Materials: Fake Website`
 - `Create Fake Materials: Fake Website`
 - `Delete Relevant Emails`
 - `Device Fingerprint Spoofing`
-- `Device Fingerprint Spoofing`
-- `Electronic Funds Transfer: Wire Transfer`
-- `Electronic Funds Transfer: Wire Transfer`
-- `Electronic Funds Transfer: Wire Transfer`
 - `Electronic Funds Transfer: Wire Transfer`
 - `Email Spoofing`
 - `Gather Customer Information`
 - `Impersonate Account Holder`
-- `Impersonate Account Holder`
 - `Impersonate Official`
 - `Indicator Removal`
-- `Indicator Removal`
-- `Indicator Removal`
 - `Insider Access Abuse`
-- `Insider Access Abuse`
-- `Insider Access Abuse`
-- `Phishing`
-- `Phishing`
 - `Phishing`
 - `Phishing for Information`
 - `Phone Number Spoofing: Official Phone Number Spoofing`
 - `Remote Access Tools`
-- `Remote Access Tools`
-- `Remote Access Tools`
 - `Stage Capabilities: SEO Poisoning`
-- `Steal Web Session Cookie`
-- `Steal Web Session Cookie`
 - `Steal Web Session Cookie`
 - `Structuring`
 - `Transfer of funds`
-- `Transfer of funds`
-- `Transfer of funds`
-- `Transfer of funds`
-- `Transfer of funds`
-- `Use Alternate Authentication Material: Application Access Token`
 - `Use Alternate Authentication Material: Application Access Token`
 - `abusing-dpapi-for-credential-access`
 - `abusing-shadow-credentials-for-privesc`
@@ -837,445 +1341,91 @@ SOC, DFIR, threat hunting, detección, hardening, compliance. Fuente: `mukul975/
 </details>
 
 
-## Business & operations (346 skills)
+## lambdatest-testing (72 skills)
 
-Fuente: `alirezarezvani/claude-skills`, por categoría.
+Testing/QA: Selenium, Playwright, Cypress, Appium, unittest, behave…. Fuente: `LambdaTest/agent-skills`.
 
+<details><summary>Ver los 72 skills</summary>
 
-<details><summary><b>engineering-team</b> (52)</summary>
-
-- `a11y-audit`
-- `adversarial-reviewer`
-- `ai-security`
-- `aws-solution-architect`
-- `azure-cloud-architect`
-- `browserstack`
-- `cloud-security`
-- `code-reviewer`
-- `coverage`
-- `email-template-builder`
-- `engineering-skills`
-- `epic-design`
-- `extract`
-- `fix`
-- `gcp-cloud-architect`
-- `generate`
-- `google-workspace-cli`
-- `incident-commander`
-- `incident-response`
-- `init`
-- `memory-review`
-- `memory-status`
-- `migrate`
-- `ms365-tenant-manager`
-- `named-persona-adversarial-review`
-- `playwright-pro`
-- `promote`
-- `red-team`
-- `remember`
-- `report`
-- `review`
-- `security-pen-testing`
-- `self-improving-agent`
-- `senior-architect`
-- `senior-backend`
-- `senior-computer-vision`
-- `senior-data-engineer`
-- `senior-data-scientist`
-- `senior-devops`
-- `senior-frontend`
-- `senior-fullstack`
-- `senior-ml-engineer`
-- `senior-prompt-engineer`
-- `senior-qa`
-- `senior-secops`
-- `senior-security`
-- `snowflake-development`
-- `stripe-integration-expert`
-- `tdd-guide`
-- `tech-stack-evaluator`
-- `testrail`
-- `threat-detection`
-
-</details>
-
-<details><summary><b>marketing-skill</b> (48)</summary>
-
-- `ab-test-setup`
-- `ad-creative`
-- `aeo`
-- `analytics-tracking`
-- `app-store-optimization`
-- `brand-guidelines`
-- `campaign-analytics`
-- `churn-prevention`
-- `cold-email`
-- `competitor-alternatives`
-- `content-creator`
-- `content-humanizer`
-- `content-production`
-- `content-strategy`
-- `copy-editing`
-- `copywriting`
-- `email-sequence`
-- `form-cro`
-- `free-tool-strategy`
-- `launch-strategy`
-- `local-seo-manager`
-- `marketing-context`
-- `marketing-demand-acquisition`
-- `marketing-ideas`
-- `marketing-ops`
-- `marketing-psychology`
-- `marketing-skills`
-- `marketing-strategy-pmm`
-- `onboarding-cro`
-- `page-cro`
-- `paid-ads`
-- `paywall-upgrade-cro`
-- `popup-cro`
-- `pricing-strategy`
-- `programmatic-seo`
-- `prompt-engineer-toolkit`
-- `referral-program`
-- `schema-markup`
-- `seo-audit`
-- `signup-flow-cro`
-- `site-architecture`
-- `social-content`
-- `social-media-analyzer`
-- `social-media-manager`
-- `video-content-strategist`
-- `webinar-marketing`
-- `x-twitter-growth`
-- `youtube-full`
+- `accessibility-skill`
+- `api-ai-augmented`
+- `api-analyzer`
+- `api-compliance-checker`
+- `api-designer`
+- `api-documentation`
+- `api-fetcher-specific-domains`
+- `api-graphql-grpc`
+- `api-health-monitoring`
+- `api-inferrer-from-files`
+- `api-integration`
+- `api-mock-helper`
+- `api-rate-limiting-helper`
+- `api-sdk-generator`
+- `api-security-auth-pattern`
+- `api-to-testcase-generator`
+- `api-versioning-helper`
+- `appium-skill`
+- `behat-skill`
+- `behave-skill`
+- `capybara-skill`
+- `cicd-pipeline-skill`
+- `codeception-skill`
+- `cucumber-skill`
+- `cypress-skill`
+- `detox-skill`
+- `espresso-skill`
+- `flutter-testing-skill`
+- `gauge-skill`
+- `geb-skill`
+- `hyperexecute-skill`
+- `jasmine-skill`
+- `jest-skill`
+- `junit-5-skill`
+- `karma-skill`
+- `laravel-dusk-skill`
+- `lettuce-skill`
+- `mocha-skill`
+- `mstest-skill`
+- `nemojs-skill`
+- `newman-cicd-integration`
+- `newman-report-analyzer`
+- `newman-script-helper`
+- `nightwatchjs-skill`
+- `nunit-skill`
+- `openapi-spec-generator`
+- `phpunit-skill`
+- `playwright-skill`
+- `postman-collection-generator`
+- `postman-newman-automation`
+- `postman-openapi-converter`
+- `postman-test-script-generator`
+- `protractor-skill`
+- `puppeteer-skill`
+- `pytest-skill`
+- `reqnroll-skill`
+- `robot-framework-skill`
+- `rspec-skill`
+- `selenide-skill`
+- `selenium-skill`
+- `serenity-bdd-skill`
+- `smartui-skill`
+- `specflow-skill`
+- `test-framework-migration-skill`
+- `testcafe-skill`
+- `testng-skill`
+- `testunit-skill`
+- `unittest-skill`
+- `vitest-skill`
+- `webdriverio-skill`
+- `xcuitest-skill`
+- `xunit-skill`
 
 </details>
 
-<details><summary><b>ra-qm-team</b> (17)</summary>
 
-- `agent-decision-receipts`
-- `capa-officer`
-- `eu-ai-act-specialist`
-- `fda-consultant-specialist`
-- `gdpr-dsgvo-expert`
-- `information-security-manager-iso27001`
-- `isms-audit-expert`
-- `iso42001-specialist`
-- `mdr-745-specialist`
-- `qms-audit-expert`
-- `quality-documentation-manager`
-- `quality-manager-qmr`
-- `quality-manager-qms-iso13485`
-- `ra-qm-skills`
-- `regulatory-affairs-head`
-- `risk-management-specialist`
-- `soc2-compliance`
+## nvidia (321 skills)
 
-</details>
-
-<details><summary><b>engineering</b> (77)</summary>
-
-- `agent-designer`
-- `agent-harness`
-- `agent-workflow-designer`
-- `agenthub`
-- `api-design-reviewer`
-- `api-test-suite-builder`
-- `autoresearch-agent`
-- `behuman`
-- `board`
-- `browser-automation`
-- `caveman`
-- `changelog-generator`
-- `chaos-engineering`
-- `ci-cd-pipeline-builder`
-- `claude-coach`
-- `code-tour`
-- `codebase-onboarding`
-- `collab-proof`
-- `data-quality-auditor`
-- `database-designer`
-- `database-schema-designer`
-- `demo-video`
-- `dependency-auditor`
-- `docker-development`
-- `engineering-advanced-skills`
-- `env-secrets-manager`
-- `eval`
-- `feature-flags-architect`
-- `focused-fix`
-- `full-page-screenshot`
-- `git-worktree-manager`
-- `grill-me`
-- `grill-with-docs`
-- `handoff`
-- `helm-chart-builder`
-- `init`
-- `interview-system-designer`
-- `karpathy-coder`
-- `kubernetes-operator`
-- `llm-cost-optimizer`
-- `llm-wiki`
-- `loop`
-- `mcp-server-builder`
-- `merge`
-- `migration-architect`
-- `monorepo-navigator`
-- `observability-designer`
-- `performance-profiler`
-- `pr-review-expert`
-- `prompt-governance`
-- `rag-architect`
-- `resume`
-- `run`
-- `runbook-generator`
-- `sample-skill`
-- `sample-skill`
-- `secrets-vault-manager`
-- `security-guidance`
-- `self-eval`
-- `setup`
-- `ship-gate`
-- `skill-security-auditor`
-- `skill-tester`
-- `skillopt-sleep`
-- `slo-architect`
-- `spawn`
-- `spec-driven-workflow`
-- `sql-database-assistant`
-- `statistical-analyst`
-- `status`
-- `tc-tracker`
-- `tech-debt-tracker`
-- `terraform-patterns`
-- `universal-scraping-architect`
-- `workflow-builder`
-- `write-a-skill`
-- `zero-hallucination-coder`
-
-</details>
-
-<details><summary><b>c-level-advisor</b> (62)</summary>
-
-- `agent-protocol`
-- `arquiteto-de-empresa`
-- `board-deck-builder`
-- `board-meeting`
-- `board-prep`
-- `boardroom`
-- `brief`
-- `c-level-agents`
-- `c-level-skills`
-- `caio-review`
-- `cco-review`
-- `cdo-review`
-- `ceo-advisor`
-- `cfo-advisor`
-- `cfo-review`
-- `challenge`
-- `change-management`
-- `chief-ai-officer-advisor`
-- `chief-customer-officer-advisor`
-- `chief-data-officer-advisor`
-- `chief-of-staff`
-- `chro-advisor`
-- `ciso-advisor`
-- `ciso-review`
-- `cmo-advisor`
-- `cmo-review`
-- `company-os`
-- `competitive-intel`
-- `context-engine`
-- `coo-advisor`
-- `cpo-advisor`
-- `cpo-review`
-- `cro-advisor`
-- `cro-review`
-- `cross-eval`
-- `cs-onboard`
-- `cto-advisor`
-- `cto-review`
-- `culture-architect`
-- `decide`
-- `decision-logger`
-- `execute`
-- `executive-mentor`
-- `founder-coach`
-- `founder-mode`
-- `freeze`
-- `gc-review`
-- `general-counsel-advisor`
-- `hard-call`
-- `internal-narrative`
-- `intl-expansion`
-- `ma-playbook`
-- `office-hours`
-- `onboard`
-- `org-health-diagnostic`
-- `post-mortem`
-- `postmortem`
-- `scenario-war-room`
-- `strategic-alignment`
-- `stress-test`
-- `vpe-advisor`
-- `vpe-review`
-
-</details>
-
-<details><summary><b>product-team</b> (17)</summary>
-
-- `agile-product-owner`
-- `apple-hig-expert`
-- `code-to-prd`
-- `competitive-teardown`
-- `experiment-designer`
-- `landing-page-generator`
-- `product-analytics`
-- `product-discovery`
-- `product-manager-toolkit`
-- `product-skills`
-- `product-strategist`
-- `research-summarizer`
-- `roadmap-communicator`
-- `saas-scaffolder`
-- `spec-to-repo`
-- `ui-design-system`
-- `ux-researcher-designer`
-
-</details>
-
-<details><summary><b>compliance-os</b> (9)</summary>
-
-- `ai-act-readiness`
-- `aims-audit`
-- `compliance-os`
-- `compliance-readiness`
-- `fda-qsr-audit-prep`
-- `gdpr-audit-prep`
-- `iso13485-audit-prep`
-- `iso27001-audit-prep`
-- `soc2-audit-prep`
-
-</details>
-
-<details><summary><b>productivity</b> (11)</summary>
-
-- `andreessen`
-- `capture`
-- `deep-work`
-- `fable-goal`
-- `handoff`
-- `inbox-setup`
-- `inbox-triage`
-- `meetings`
-- `reflect`
-- `roast`
-- `weekly-review`
-
-</details>
-
-<details><summary><b>project-management</b> (9)</summary>
-
-- `atlassian-admin`
-- `atlassian-templates`
-- `confluence-expert`
-- `jira-expert`
-- `meeting-analyzer`
-- `pm-skills`
-- `scrum-master`
-- `senior-pm`
-- `team-communications`
-
-</details>
-
-<details><summary><b>business-growth</b> (5)</summary>
-
-- `business-growth-skills`
-- `contract-and-proposal-writer`
-- `customer-success-manager`
-- `revenue-operations`
-- `sales-engineer`
-
-</details>
-
-<details><summary><b>finance</b> (4)</summary>
-
-- `business-investment-advisor`
-- `finance-skills`
-- `financial-analyst`
-- `saas-metrics-coach`
-
-</details>
-
-<details><summary><b>business-operations</b> (7)</summary>
-
-- `business-operations-skills`
-- `capacity-planner`
-- `internal-comms`
-- `knowledge-ops`
-- `process-mapper`
-- `procurement-optimizer`
-- `vendor-management`
-
-</details>
-
-<details><summary><b>commercial</b> (8)</summary>
-
-- `channel-economics`
-- `commercial-forecaster`
-- `commercial-policy`
-- `commercial-skills`
-- `deal-desk`
-- `partnerships-architect`
-- `pricing-strategist`
-- `rfp-responder`
-
-</details>
-
-<details><summary><b>research-ops</b> (5)</summary>
-
-- `clinical-research`
-- `market-research`
-- `product-research`
-- `research-finance`
-- `research-ops-skills`
-
-</details>
-
-<details><summary><b>research</b> (9)</summary>
-
-- `deep-research`
-- `dossier`
-- `grants`
-- `litreview`
-- `notebooklm`
-- `patent`
-- `pulse`
-- `research`
-- `syllabus`
-
-</details>
-
-<details><summary><b>markdown-html</b> (5)</summary>
-
-- `design-system`
-- `markdown-html-orchestrator`
-- `md-document`
-- `md-review`
-- `md-slides`
-
-</details>
-
-<details><summary><b>marketing</b> (1)</summary>
-
-- `landing`
-
-</details>
-
-## NVIDIA (321 skills)
-
-GPU/CUDA, TAO, DOCA, Dynamo, Triton, inferencia y frameworks de NVIDIA. Fuente: `NVIDIA/skills`.
+GPU/CUDA, TAO, DOCA, Dynamo, Triton, inferencia. Fuente: `NVIDIA/skills`.
 
 <details><summary>Ver los 321 skills</summary>
 
@@ -1604,9 +1754,9 @@ GPU/CUDA, TAO, DOCA, Dynamo, Triton, inferencia y frameworks de NVIDIA. Fuente: 
 </details>
 
 
-## Scientific (150 skills)
+## scientific (150 skills)
 
-Bioinformática, forecasting, química, datos científicos, formatos (BIDS, etc.). Fuente: `K-Dense-AI/claude-scientific-skills`.
+Bioinformática, forecasting, química, formatos científicos. Fuente: `K-Dense-AI/claude-scientific-skills`.
 
 <details><summary>Ver los 150 skills</summary>
 
@@ -1760,6 +1910,47 @@ Bioinformática, forecasting, química, datos científicos, formatos (BIDS, etc.
 - `what-if-oracle`
 - `xlsx`
 - `zarr-python`
+
+</details>
+
+
+## seo (31 skills)
+
+SEO técnico, keywords, contenido, extensiones (Ahrefs, GSC, Bing…). Fuente: `AgriciDaniel/claude-seo`.
+
+<details><summary>Ver los 31 skills</summary>
+
+- `seo`
+- `seo-ahrefs`
+- `seo-audit`
+- `seo-backlinks`
+- `seo-bing`
+- `seo-cluster`
+- `seo-competitor-pages`
+- `seo-content`
+- `seo-content-brief`
+- `seo-dataforseo`
+- `seo-drift`
+- `seo-ecommerce`
+- `seo-firecrawl`
+- `seo-flow`
+- `seo-geo`
+- `seo-google`
+- `seo-hreflang`
+- `seo-image-gen`
+- `seo-images`
+- `seo-local`
+- `seo-maps`
+- `seo-page`
+- `seo-plan`
+- `seo-profound`
+- `seo-programmatic`
+- `seo-schema`
+- `seo-seranking`
+- `seo-sitemap`
+- `seo-sxo`
+- `seo-technical`
+- `seo-unlighthouse`
 
 </details>
 

@@ -7,17 +7,18 @@ viven en `skills-library/` para activarse bajo demanda y no saturar el contexto.
 
 ## Cómo funciona
 
-- **`.claude/skills/`** — 220 skills activos. Claude Code los descubre automáticamente
+- **`.claude/skills/`** — 272 skills activos. Claude Code los descubre automáticamente
   al trabajar en este repo (o cópialos a `~/.claude/skills/` para tenerlos globalmente).
   Ver el listado completo en [`CATALOG.md`](./CATALOG.md).
-- **`skills-library/`** — 1.634 skills adicionales (817 ciberseguridad + 346 negocio +
-  321 NVIDIA + 150 científicos) **no** auto-activos. Para activar uno:
+- **`skills-library/`** — 1.913 skills adicionales (817 ciberseguridad + 346 negocio +
+  321 NVIDIA + 150 científicos + 68 bootstrap + 72 testing/QA + 68 context-engineering +
+  40 ASO + 31 SEO) **no** auto-activos. Para activar uno:
   ```bash
   cp -R skills-library/<coleccion>/<nombre> .claude/skills/
   ```
   Ver [`skills-library/README.md`](./skills-library/README.md).
 
-> Se separó así a propósito: cargar ~1.850 descripciones de skills en cada sesión
+> Se separó así a propósito: cargar ~2.185 descripciones de skills en cada sesión
 > ralentizaría mucho a Claude Code. El núcleo activo es usable; la biblioteca es un
 > almacén organizado listo para usar.
 
@@ -35,6 +36,19 @@ viven en `skills-library/` para activarse bajo demanda y no saturar el contexto.
 | [angular/skills](https://github.com/angular/skills) | 2 | Oficiales de Angular: developer, new-app |
 | [coderabbitai/skills](https://github.com/coderabbitai/skills) | 2 | Code review y autofix (CodeRabbit) |
 | [blader/humanizer](https://github.com/blader/humanizer) | 1 | Humanizar texto generado por IA |
+| [ZhangHanDong/makepad-skills](https://github.com/ZhangHanDong/makepad-skills) | 14 | Makepad 2.0 (GUI en Rust): DSL, layout, shaders, widgets, animación |
+| [CloudAI-X/threejs-skills](https://github.com/CloudAI-X/threejs-skills) | 10 | Three.js: fundamentos, geometría, materiales, shaders, post-procesado |
+| [NoizAI/skills](https://github.com/NoizAI/skills) | 8 | Audio/voz: TTS, STT, SFX, traducción de vídeo, voces con carácter |
+| [MohamedAbdallah-14/unslop](https://github.com/MohamedAbdallah-14/unslop) | 6 | Humanizar salida de IA (commits, review, reasoning, ficheros) |
+| [Charlie85270/Dorothy](https://github.com/Charlie85270/Dorothy) | 4 | React/Vercel best practices, refactor de componentes, guías de diseño web |
+| [Linked-API/linkedin-skills](https://github.com/Linked-API/linkedin-skills) | 2 | Automatización de LinkedIn y pipeline de leads |
+| [awrshift/claude-memory-kit](https://github.com/awrshift/claude-memory-kit) | 2 | Memoria de sesión: cierre de sesión y tour del sistema |
+| [conorluddy/ios-simulator-skill](https://github.com/conorluddy/ios-simulator-skill) | 1 | Testing/automatización del simulador de iOS |
+| [antonbabenko/terraform-skill](https://github.com/antonbabenko/terraform-skill) | 1 | Terraform/OpenTofu: módulos, tests, estado, CI |
+| [BehiSecc/VibeSec-Skill](https://github.com/BehiSecc/VibeSec-Skill) | 1 | Seguridad de apps web (auditoría/scan) |
+| [Digidai/product-manager-skills](https://github.com/Digidai/product-manager-skills) | 1 | Product management: métricas SaaS, PRDs, roadmaps, PLG |
+| [SeanZoR/claude-speed-reader](https://github.com/SeanZoR/claude-speed-reader) | 1 | Lector rápido RSVP |
+| [PleasePrompto/notebooklm-skill](https://github.com/PleasePrompto/notebooklm-skill) | 1 | Consultar Google NotebookLM con citas |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 48 | Marketing: SEO, emails, social, PR, copy, analytics, prospecting |
 | [mattpocock/skills](https://github.com/mattpocock/skills) | ~37 | Ingeniería y productividad TypeScript (grill-me, tdd, code-review, research…) |
 | [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) | 15 | GEO / SEO para motores de IA (auditoría, schema, llms.txt, citabilidad) |
@@ -52,6 +66,11 @@ viven en `skills-library/` para activarse bajo demanda y no saturar el contexto.
 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 346 | Negocio, finanzas, C-level, product, engineering, compliance, research |
 | [NVIDIA/skills](https://github.com/NVIDIA/skills) | 321 | GPU/CUDA, TAO Toolkit, DOCA, Dynamo, Triton, inferencia y frameworks NVIDIA |
 | [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | 150 | Ciencia: bioinformática, forecasting, química, formatos de datos (BIDS…) |
+| [LambdaTest/agent-skills](https://github.com/LambdaTest/agent-skills) | 72 | Testing/QA: Selenium, Playwright, Cypress, Appium, unittest, behave… |
+| [alinaqi/claude-bootstrap](https://github.com/alinaqi/claude-bootstrap) | 68 | Bootstrap de apps: auth, pagos, analytics, Firebase, Supabase, deploy |
+| [NeoLabHQ/context-engineering-kit](https://github.com/NeoLabHQ/context-engineering-kit) | 68 | Context engineering: review, planning, memoria, orquestación |
+| [Eronred/aso-skills](https://github.com/Eronred/aso-skills) | 40 | App Store Optimization: iOS/Android, keywords, iconos, reseñas |
+| [AgriciDaniel/claude-seo](https://github.com/AgriciDaniel/claude-seo) | 31 | SEO técnico, keywords, contenido, extensiones (Ahrefs, GSC, Bing…) |
 
 ## Herramientas y frameworks (referencias externas)
 
@@ -107,12 +126,17 @@ ejecutan por su cuenta. Se documentan aquí como referencia:
 ## Estructura
 
 ```
-.claude/skills/          # 220 skills activos (auto-cargados)
+.claude/skills/          # 272 skills activos (auto-cargados)
 skills-library/
   cybersecurity/         # 817 skills (activar bajo demanda)
   business/              # 346 skills por categoría
   nvidia/                # 321 skills GPU/CUDA/NVIDIA
   scientific/            # 150 skills científicos
+  bootstrap/             # 68  bootstrap de apps
+  context-engineering/   # 68  context engineering
+  lambdatest-testing/    # 72  testing/QA
+  aso/                   # 40  App Store Optimization
+  seo/                   # 31  SEO
 CATALOG.md               # listado completo de skills activos
 skills-library/README.md # listado de la biblioteca
 ```
