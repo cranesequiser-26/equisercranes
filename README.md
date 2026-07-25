@@ -2,22 +2,22 @@
 
 Colección curada de **skills para Claude Code** integrados desde la lista de repositorios
 proporcionada. Los skills enfocados están **activos** en `.claude/skills/` (se cargan
-automáticamente); los dos catálogos masivos (ciberseguridad y negocio) viven en
-`skills-library/` para activarse bajo demanda y no saturar el contexto.
+automáticamente); los catálogos masivos (ciberseguridad, negocio, NVIDIA, científicos)
+viven en `skills-library/` para activarse bajo demanda y no saturar el contexto.
 
 ## Cómo funciona
 
-- **`.claude/skills/`** — 182 skills activos. Claude Code los descubre automáticamente
+- **`.claude/skills/`** — 220 skills activos. Claude Code los descubre automáticamente
   al trabajar en este repo (o cópialos a `~/.claude/skills/` para tenerlos globalmente).
   Ver el listado completo en [`CATALOG.md`](./CATALOG.md).
-- **`skills-library/`** — 1.163 skills adicionales (817 de ciberseguridad + 346 de
-  negocio/operaciones) **no** auto-activos. Para activar uno:
+- **`skills-library/`** — 1.634 skills adicionales (817 ciberseguridad + 346 negocio +
+  321 NVIDIA + 150 científicos) **no** auto-activos. Para activar uno:
   ```bash
-  cp -R skills-library/cybersecurity/<nombre> .claude/skills/
+  cp -R skills-library/<coleccion>/<nombre> .claude/skills/
   ```
   Ver [`skills-library/README.md`](./skills-library/README.md).
 
-> Se separó así a propósito: cargar ~1.400 descripciones de skills en cada sesión
+> Se separó así a propósito: cargar ~1.850 descripciones de skills en cada sesión
 > ralentizaría mucho a Claude Code. El núcleo activo es usable; la biblioteca es un
 > almacén organizado listo para usar.
 
@@ -26,10 +26,15 @@ automáticamente); los dos catálogos masivos (ciberseguridad y negocio) viven e
 | Fuente | Skills | Tema |
 |---|---|---|
 | [obra/superpowers](https://github.com/obra/superpowers) | 14 | Flujos de desarrollo: TDD, debugging sistemático, planes, code review, git worktrees |
-| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 7 | Commits, review, compresión y stats de contexto estilo "caveman" |
+| [anthropics/skills](https://github.com/anthropics/skills) | 17 | Oficiales de Anthropic: docx/pdf/pptx/xlsx, mcp-builder, skill-creator, canvas, frontend-design, brand |
 | [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) | 24 | Ingeniería: TDD, spec/source-driven, debugging, seguridad, performance, CI/CD, code review |
-| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 6 | Auditoría, deuda técnica, review y "gain" de contexto |
+| [Joannis/claude-skills](https://github.com/Joannis/claude-skills) | 16 | Swift/SwiftNIO, concurrencia, Postgres, Hummingbird, diseño de librerías |
+| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 7 | Commits, review, compresión y stats de contexto estilo "caveman" |
+| [DietrichGebert/ponytail](https://github.com/DietrichGebert/ponytail) | 6 | Auditoría, deuda técnica, review y "gain" de contexto (código minimalista) |
 | [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) | 5 | Obsidian: CLI, bases, JSON Canvas, markdown, defuddle |
+| [angular/skills](https://github.com/angular/skills) | 2 | Oficiales de Angular: developer, new-app |
+| [coderabbitai/skills](https://github.com/coderabbitai/skills) | 2 | Code review y autofix (CodeRabbit) |
+| [blader/humanizer](https://github.com/blader/humanizer) | 1 | Humanizar texto generado por IA |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 48 | Marketing: SEO, emails, social, PR, copy, analytics, prospecting |
 | [mattpocock/skills](https://github.com/mattpocock/skills) | ~37 | Ingeniería y productividad TypeScript (grill-me, tdd, code-review, research…) |
 | [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) | 15 | GEO / SEO para motores de IA (auditoría, schema, llms.txt, citabilidad) |
@@ -45,6 +50,8 @@ automáticamente); los dos catálogos masivos (ciberseguridad y negocio) viven e
 |---|---|---|
 | [mukul975/Anthropic-Cybersecurity-Skills](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) | 817 | SOC, DFIR, threat hunting, detección, hardening, compliance |
 | [alirezarezvani/claude-skills](https://github.com/alirezarezvani/claude-skills) | 346 | Negocio, finanzas, C-level, product, engineering, compliance, research |
+| [NVIDIA/skills](https://github.com/NVIDIA/skills) | 321 | GPU/CUDA, TAO Toolkit, DOCA, Dynamo, Triton, inferencia y frameworks NVIDIA |
+| [K-Dense-AI/claude-scientific-skills](https://github.com/K-Dense-AI/claude-scientific-skills) | 150 | Ciencia: bioinformática, forecasting, química, formatos de datos (BIDS…) |
 
 ## Herramientas y frameworks (referencias externas)
 
@@ -100,10 +107,12 @@ ejecutan por su cuenta. Se documentan aquí como referencia:
 ## Estructura
 
 ```
-.claude/skills/          # 182 skills activos (auto-cargados)
+.claude/skills/          # 220 skills activos (auto-cargados)
 skills-library/
   cybersecurity/         # 817 skills (activar bajo demanda)
   business/              # 346 skills por categoría
+  nvidia/                # 321 skills GPU/CUDA/NVIDIA
+  scientific/            # 150 skills científicos
 CATALOG.md               # listado completo de skills activos
 skills-library/README.md # listado de la biblioteca
 ```

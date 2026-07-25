@@ -1,22 +1,115 @@
 # Biblioteca de skills (no auto-activos)
 
 
-Estos skills **no** se cargan automáticamente para no saturar el contexto de Claude Code.
+No se cargan automáticamente para no saturar el contexto de Claude Code.
 Para activar uno, copia su carpeta a `.claude/skills/`:
 
 
 ```bash
-cp -R skills-library/cybersecurity/<nombre-skill> .claude/skills/
+cp -R skills-library/<coleccion>/<nombre-skill> .claude/skills/
 ```
 
 
 ## Cybersecurity (817 skills)
 
-
-Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detección, threat hunting, hardening, compliance.
+SOC, DFIR, threat hunting, detección, hardening, compliance. Fuente: `mukul975/Anthropic-Cybersecurity-Skills`.
 
 <details><summary>Ver los 817 skills</summary>
 
+- `Abuse of Public-Facing API: Mobile API Abuse`
+- `Access with Stolen Session Cookie`
+- `Access with Stolen Session Cookie`
+- `Access with Stolen Session Cookie`
+- `Access with Stolen Session Cookie`
+- `Account Access Removal`
+- `Account Manipulation`
+- `Account Manipulation`
+- `Account Manipulation`
+- `Account Manipulation: Account Linking`
+- `Account Manipulation: Add Authorized User`
+- `Account Manipulation: Change Account Details`
+- `Account Manipulation: Change of Payment Details`
+- `Account Manipulation: Enable Account Features`
+- `Account Manipulation: Enable Account Features`
+- `Account Takeover`
+- `Account Takeover`
+- `Account Takeover`
+- `Account Takeover`
+- `Account Takeover`
+- `Account Takeover`
+- `Account Takeover`
+- `Account Takeover`
+- `Account Takeover: Exposed API Key`
+- `Account Takeover: Exposed Login Credential`
+- `Account Takeover: Exposed Login Credential`
+- `Account Takeover: Exposed Login Credential`
+- `Account Takeover: Exposed Login Credential`
+- `Account Takeover: Exposed Login Credential`
+- `Account Takeover: Exposed Login Credential`
+- `Account Takeover: Exposed Login Credential`
+- `Account Takeover: Exposed Login Credential`
+- `Account Takeover: Exposed Login Credential`
+- `Account Takeover: Exposed Login Credential`
+- `Account Takeover: Password Reset`
+- `Adversary-in-the-Browser: Malicious JavaScript Injection`
+- `Adversary-in-the-Middle`
+- `Browser Session Hijacking`
+- `Brute Force:  Credential Stuffing`
+- `Brute Force: Password Cracking`
+- `Conversion to Physical Monetary Instruments: Cash`
+- `Conversion to Physical Monetary Instruments: Cash`
+- `Conversion to Physical Monetary Instruments: Cash`
+- `Conversion to Physical Monetary Instruments: Cash`
+- `Conversion to Physical Monetary Instruments: Cash`
+- `Convert to Cryptocurrency`
+- `Convert to Cryptocurrency`
+- `Convert to Cryptocurrency`
+- `Create Fake Materials: Fake Website`
+- `Create Fake Materials: Fake Website`
+- `Create Fake Materials: Fake Website`
+- `Create Fake Materials: Fake Website`
+- `Create Fake Materials: Fake Website`
+- `Create Fake Materials: Fake Website`
+- `Create Fake Materials: Fake Website`
+- `Create Fake Materials: Fake Website`
+- `Delete Relevant Emails`
+- `Device Fingerprint Spoofing`
+- `Device Fingerprint Spoofing`
+- `Electronic Funds Transfer: Wire Transfer`
+- `Electronic Funds Transfer: Wire Transfer`
+- `Electronic Funds Transfer: Wire Transfer`
+- `Electronic Funds Transfer: Wire Transfer`
+- `Email Spoofing`
+- `Gather Customer Information`
+- `Impersonate Account Holder`
+- `Impersonate Account Holder`
+- `Impersonate Official`
+- `Indicator Removal`
+- `Indicator Removal`
+- `Indicator Removal`
+- `Insider Access Abuse`
+- `Insider Access Abuse`
+- `Insider Access Abuse`
+- `Phishing`
+- `Phishing`
+- `Phishing`
+- `Phishing for Information`
+- `Phone Number Spoofing: Official Phone Number Spoofing`
+- `Remote Access Tools`
+- `Remote Access Tools`
+- `Remote Access Tools`
+- `Stage Capabilities: SEO Poisoning`
+- `Steal Web Session Cookie`
+- `Steal Web Session Cookie`
+- `Steal Web Session Cookie`
+- `Structuring`
+- `Transfer of funds`
+- `Transfer of funds`
+- `Transfer of funds`
+- `Transfer of funds`
+- `Transfer of funds`
+- `Use Alternate Authentication Material: Application Access Token`
+- `Use Alternate Authentication Material: Application Access Token`
 - `abusing-dpapi-for-credential-access`
 - `abusing-shadow-credentials-for-privesc`
 - `achieving-cmmc-level-2-compliance`
@@ -29,7 +122,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `analyzing-bootkit-and-rootkit-samples`
 - `analyzing-browser-forensics-with-hindsight`
 - `analyzing-campaign-attribution-evidence`
-- `Phishing`
 - `analyzing-cloud-storage-access-patterns`
 - `analyzing-cobalt-strike-beacon-configuration`
 - `analyzing-cobaltstrike-malleable-c2-profiles`
@@ -38,15 +130,12 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `analyzing-disk-image-with-autopsy`
 - `analyzing-dns-logs-for-exfiltration`
 - `analyzing-docker-container-forensics`
-- `Create Fake Materials: Fake Website`
 - `analyzing-ethereum-smart-contract-vulnerabilities`
 - `analyzing-golang-malware-with-ghidra`
 - `analyzing-heap-spray-exploitation`
-- `Create Fake Materials: Fake Website`
 - `analyzing-ios-app-security-with-objection`
 - `analyzing-kubernetes-audit-logs`
 - `analyzing-linux-audit-logs-for-intrusion`
-- `Transfer of funds`
 - `analyzing-linux-kernel-rootkits`
 - `analyzing-linux-system-artifacts`
 - `analyzing-lnk-file-and-jump-list-artifacts`
@@ -74,10 +163,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `analyzing-powershell-empire-artifacts`
 - `analyzing-powershell-script-block-logging`
 - `analyzing-prefetch-files-for-execution-history`
-- `Remote Access Tools`
-- `Electronic Funds Transfer: Wire Transfer`
-- `Transfer of funds`
-- `Structuring`
 - `analyzing-sbom-for-supply-chain-vulnerabilities`
 - `analyzing-security-logs-with-splunk`
 - `analyzing-slack-space-and-file-system-artifacts`
@@ -86,8 +171,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `analyzing-threat-actor-ttps-with-mitre-navigator`
 - `analyzing-threat-intelligence-feeds`
 - `analyzing-threat-landscape-with-misp`
-- `Phishing`
-- `Phishing`
 - `analyzing-uefi-bootkit-persistence`
 - `analyzing-usb-device-connection-history`
 - `analyzing-web-server-logs-for-intrusion`
@@ -106,7 +189,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `auditing-entra-id-with-aadinternals`
 - `auditing-foundry-smart-contract-security`
 - `auditing-gcp-iam-permissions`
-- `Account Access Removal`
 - `auditing-kubernetes-rbac-privilege-escalation`
 - `auditing-mcp-servers-for-tool-poisoning`
 - `auditing-terraform-infrastructure-for-security`
@@ -123,8 +205,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `building-detection-rule-with-splunk-spl`
 - `building-detection-rules-with-sigma`
 - `building-devsecops-pipeline-with-gitlab-ci`
-- `Access with Stolen Session Cookie`
-- `Account Takeover`
 - `building-incident-response-dashboard`
 - `building-incident-response-playbook`
 - `building-incident-timeline-with-timesketch`
@@ -132,13 +212,10 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `building-ioc-enrichment-pipeline-with-opencti`
 - `building-malware-incident-communication-template`
 - `building-patch-tuesday-response-process`
-- `Create Fake Materials: Fake Website`
-- `Transfer of funds`
 - `building-red-team-c2-infrastructure-with-havoc`
 - `building-role-mining-for-rbac-optimization`
 - `building-soc-escalation-matrix`
 - `building-soc-metrics-and-kpi-tracking`
-- `Transfer of funds`
 - `building-super-timelines-with-plaso`
 - `building-threat-actor-profile-from-osint`
 - `building-threat-feed-aggregation-with-misp`
@@ -171,23 +248,16 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `conducting-mobile-app-penetration-test`
 - `conducting-network-penetration-test`
 - `conducting-pass-the-ticket-attack`
-- `Account Takeover: Exposed Login Credential`
 - `conducting-post-incident-lessons-learned`
-- `Create Fake Materials: Fake Website`
-- `Phone Number Spoofing: Official Phone Number Spoofing`
-- `Account Takeover: Exposed Login Credential`
 - `conducting-wireless-network-penetration-test`
 - `configuring-active-directory-tiered-model`
 - `configuring-aws-verified-access-for-ztna`
 - `configuring-certificate-authority-with-openssl`
 - `configuring-host-based-intrusion-detection`
 - `configuring-hsm-for-key-storage`
-- `Steal Web Session Cookie`
-- `Adversary-in-the-Middle`
 - `configuring-microsegmentation-for-zero-trust`
 - `configuring-multi-factor-authentication-with-duo`
 - `configuring-network-segmentation-with-vlans`
-- `Steal Web Session Cookie`
 - `configuring-pfsense-firewall-rules`
 - `configuring-snort-ids-for-intrusion-detection`
 - `configuring-suricata-for-network-monitoring`
@@ -205,24 +275,19 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `deploying-active-directory-honeytokens`
 - `deploying-cloud-deception-with-decoy-resources`
 - `deploying-cloudflare-access-for-zero-trust`
-- `Indicator Removal`
 - `deploying-edr-agent-with-crowdstrike`
 - `deploying-honeytokens-and-canarytokens`
 - `deploying-osquery-for-endpoint-monitoring`
 - `deploying-palo-alto-prisma-access-zero-trust`
-- `Electronic Funds Transfer: Wire Transfer`
 - `deploying-software-defined-perimeter`
 - `deploying-tailscale-for-zero-trust-vpn`
 - `designing-adversary-engagement-with-mitre-engage`
 - `detecting-ai-model-prompt-injection-attacks`
 - `detecting-anomalies-in-industrial-control-systems`
-- `Steal Web Session Cookie`
 - `detecting-api-enumeration-attacks`
 - `detecting-arp-poisoning-in-network-traffic`
 - `detecting-attacks-on-historian-servers`
 - `detecting-attacks-on-scada-systems`
-- `Account Manipulation: Account Linking`
-- `Use Alternate Authentication Material: Application Access Token`
 - `detecting-aws-guardduty-findings-automation`
 - `detecting-aws-iam-privilege-escalation`
 - `detecting-azure-lateral-movement`
@@ -231,20 +296,14 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `detecting-beaconing-patterns-with-zeek`
 - `detecting-bluetooth-low-energy-attacks`
 - `detecting-broken-object-property-level-authorization`
-- `Delete Relevant Emails`
-- `Electronic Funds Transfer: Wire Transfer`
 - `detecting-cloud-threats-with-guardduty`
 - `detecting-command-and-control-over-dns`
-- `Account Manipulation`
 - `detecting-container-drift-at-runtime`
 - `detecting-container-escape-attempts`
 - `detecting-container-escape-with-falco-rules`
 - `detecting-container-runtime-threats-with-falco`
-- `Brute Force: Password Cracking`
-- `Convert to Cryptocurrency`
 - `detecting-data-and-model-poisoning`
 - `detecting-dcsync-attack-in-active-directory`
-- `Electronic Funds Transfer: Wire Transfer`
 - `detecting-dependency-confusion`
 - `detecting-dll-sideloading-attacks`
 - `detecting-dnp3-protocol-anomalies`
@@ -272,14 +331,12 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `detecting-malicious-scheduled-tasks-with-sysmon`
 - `detecting-mimikatz-execution-patterns`
 - `detecting-misconfigured-azure-storage`
-- `Abuse of Public-Facing API: Mobile API Abuse`
 - `detecting-modbus-command-injection-attacks`
 - `detecting-modbus-protocol-anomalies`
 - `detecting-model-extraction-attacks`
 - `detecting-network-anomalies-with-zeek`
 - `detecting-network-scanning-with-ids-signatures`
 - `detecting-ntlm-relay-with-event-correlation`
-- `Browser Session Hijacking`
 - `detecting-pass-the-hash-attacks`
 - `detecting-pass-the-ticket-attacks`
 - `detecting-port-scanning-with-fail2ban`
@@ -287,9 +344,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `detecting-privilege-escalation-in-kubernetes-pods`
 - `detecting-process-hollowing-technique`
 - `detecting-process-injection-techniques`
-- `Account Takeover: Exposed Login Credential`
-- `Indicator Removal`
-- `Convert to Cryptocurrency`
 - `detecting-rdp-brute-force-attacks`
 - `detecting-rootkit-activity`
 - `detecting-s3-data-exfiltration-attempts`
@@ -298,13 +352,11 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `detecting-service-account-abuse`
 - `detecting-shadow-api-endpoints`
 - `detecting-shadow-it-cloud-usage`
-- `Create Fake Materials: Fake Website`
 - `detecting-sql-injection-via-waf-logs`
 - `detecting-stuxnet-style-attacks`
 - `detecting-supply-chain-attacks-in-ci-cd`
 - `detecting-suspicious-oauth-application-consent`
 - `detecting-suspicious-powershell-execution`
-- `Account Takeover: Exposed Login Credential`
 - `detecting-t1055-process-injection-with-sysmon`
 - `detecting-t1548-abuse-elevation-control-mechanism`
 - `detecting-typosquatting-packages`
@@ -317,7 +369,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `evaluating-threat-intelligence-platforms`
 - `executing-active-directory-attack-simulation`
 - `executing-nist-rmf-authorization-to-operate`
-- `Access with Stolen Session Cookie`
 - `executing-red-team-engagement-planning`
 - `executing-red-team-exercise`
 - `exploiting-active-directory-certificate-services-esc1`
@@ -356,7 +407,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `exploiting-zerologon-vulnerability-cve-2020-1472`
 - `extracting-browser-history-artifacts`
 - `extracting-config-from-agent-tesla-rat`
-- `Account Takeover: Exposed API Key`
 - `extracting-iocs-from-malware-samples`
 - `extracting-memory-artifacts-with-rekall`
 - `extracting-windows-event-logs-artifacts`
@@ -370,7 +420,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `hardening-windows-endpoint-with-cis-benchmark`
 - `hunting-advanced-persistent-threats`
 - `hunting-bootkits-in-efi-system-partition`
-- `Account Takeover`
 - `hunting-evtx-with-chainsaw`
 - `hunting-for-anomalous-powershell-execution`
 - `hunting-for-beaconing-with-frequency-analysis`
@@ -396,7 +445,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `hunting-for-registry-run-key-persistence`
 - `hunting-for-scheduled-task-persistence`
 - `hunting-for-shadow-copy-deletion`
-- `Create Fake Materials: Fake Website`
 - `hunting-for-startup-folder-persistence`
 - `hunting-for-supply-chain-compromise`
 - `hunting-for-suspicious-scheduled-tasks`
@@ -407,8 +455,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `hunting-saas-sso-token-abuse`
 - `implementing-aes-encryption-for-data-at-rest`
 - `implementing-alert-fatigue-reduction`
-- `Impersonate Account Holder`
-- `Convert to Cryptocurrency`
 - `implementing-api-abuse-detection-with-rate-limiting`
 - `implementing-api-gateway-security-controls`
 - `implementing-api-key-security-controls`
@@ -427,11 +473,9 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `implementing-aws-nitro-enclave-security`
 - `implementing-aws-security-hub`
 - `implementing-aws-security-hub-compliance`
-- `Account Manipulation: Add Authorized User`
 - `implementing-azure-defender-for-cloud`
 - `implementing-beyondcorp-zero-trust-access-model`
 - `implementing-bgp-security-with-rpki`
-- `Adversary-in-the-Browser: Malicious JavaScript Injection`
 - `implementing-canary-tokens-for-network-intrusion`
 - `implementing-cisa-zero-trust-maturity-model`
 - `implementing-cloud-dlp-for-data-protection`
@@ -449,7 +493,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `implementing-data-loss-prevention-with-microsoft-purview`
 - `implementing-ddos-mitigation-with-cloudflare`
 - `implementing-deception-based-detection-with-canarytoken`
-- `Account Manipulation`
 - `implementing-device-posture-assessment-in-zero-trust`
 - `implementing-devsecops-security-scanning`
 - `implementing-diamond-model-analysis`
@@ -472,17 +515,10 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `implementing-gdpr-data-protection-controls`
 - `implementing-gdpr-data-subject-access-request`
 - `implementing-github-advanced-security-for-code-scanning`
-- `Account Manipulation`
-- `Create Fake Materials: Fake Website`
-- `Account Takeover`
 - `implementing-hardware-security-key-authentication`
-- `Insider Access Abuse`
 - `implementing-hipaa-security-rule-safeguards`
-- `Insider Access Abuse`
 - `implementing-honeytokens-for-breach-detection`
 - `implementing-ics-firewall-with-tofino`
-- `Account Takeover`
-- `Phishing for Information`
 - `implementing-iec-62443-security-zones`
 - `implementing-image-provenance-verification-with-cosign`
 - `implementing-immutable-backup-with-restic`
@@ -497,7 +533,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `implementing-log-integrity-with-blockchain`
 - `implementing-memory-protection-with-dep-aslr`
 - `implementing-microsegmentation-with-guardicore`
-- `Create Fake Materials: Fake Website`
 - `implementing-mitre-attack-coverage-mapping`
 - `implementing-mobile-application-management`
 - `implementing-mtls-for-zero-trust-services`
@@ -515,28 +550,20 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `implementing-opa-gatekeeper-for-policy-enforcement`
 - `implementing-ot-incident-response-playbook`
 - `implementing-ot-network-traffic-analysis-with-nozomi`
-- `Account Takeover: Exposed Login Credential`
-- `Access with Stolen Session Cookie`
 - `implementing-passwordless-authentication-with-fido2`
 - `implementing-patch-management-for-ot-systems`
 - `implementing-patch-management-workflow`
 - `implementing-pci-dss-compliance-controls`
 - `implementing-pod-security-admission-controller`
 - `implementing-policy-as-code-with-open-policy-agent`
-- `Account Takeover: Exposed Login Credential`
 - `implementing-privileged-access-workstation`
 - `implementing-privileged-session-monitoring`
-- `Account Manipulation: Change of Payment Details`
 - `implementing-purdue-model-network-segmentation`
-- `Conversion to Physical Monetary Instruments: Cash`
-- `Transfer of funds`
 - `implementing-rapid7-insightvm-for-scanning`
 - `implementing-rbac-hardening-for-kubernetes`
 - `implementing-rsa-key-pair-management`
 - `implementing-runtime-application-self-protection`
 - `implementing-runtime-security-with-tetragon`
-- `Account Takeover: Password Reset`
-- `Account Takeover: Exposed Login Credential`
 - `implementing-secret-scanning-with-gitleaks`
 - `implementing-secrets-management-with-vault`
 - `implementing-secrets-scanning-in-ci-cd`
@@ -547,9 +574,7 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `implementing-siem-correlation-rules-for-apt`
 - `implementing-siem-use-case-tuning`
 - `implementing-siem-use-cases-for-detection`
-- `Indicator Removal`
 - `implementing-soar-automation-with-phantom`
-- `Impersonate Official`
 - `implementing-soar-playbook-with-palo-alto-xsoar`
 - `implementing-stix-taxii-feed-integration`
 - `implementing-supply-chain-security-with-in-toto`
@@ -572,21 +597,16 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `implementing-zero-trust-network-access`
 - `implementing-zero-trust-network-access-with-zscaler`
 - `implementing-zero-trust-with-beyondcorp`
-- `Insider Access Abuse`
 - `integrating-dast-with-owasp-zap-in-pipeline`
 - `integrating-sast-into-github-actions-pipeline`
 - `intercepting-mobile-traffic-with-burpsuite`
 - `investigating-insider-threat-indicators`
-- `Account Takeover: Exposed Login Credential`
-- `Conversion to Physical Monetary Instruments: Cash`
-- `Use Alternate Authentication Material: Application Access Token`
 - `managing-intelligence-lifecycle`
 - `managing-third-party-vendor-risk`
 - `mapping-attack-paths-with-bloodhound-ce`
 - `mapping-mitre-attack-techniques`
 - `migrating-to-post-quantum-cryptography`
 - `modeling-threats-with-opencti`
-- `Brute Force:  Credential Stuffing`
 - `monitoring-scada-modbus-traffic-anomalies`
 - `moving-laterally-with-netexec`
 - `operating-havoc-c2`
@@ -594,14 +614,12 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `operationalizing-misp-threat-feeds`
 - `orchestrating-llm-attacks-with-pyrit`
 - `parsing-artifacts-with-eric-zimmerman-tools`
-- `Account Manipulation: Enable Account Features`
 - `performing-access-review-and-certification`
 - `performing-active-directory-bloodhound-analysis`
 - `performing-active-directory-compromise-investigation`
 - `performing-active-directory-forest-trust-attack`
 - `performing-active-directory-penetration-test`
 - `performing-active-directory-vulnerability-assessment`
-- `Account Takeover`
 - `performing-agentless-vulnerability-scanning`
 - `performing-ai-driven-osint-correlation`
 - `performing-alert-triage-with-elastic-siem`
@@ -621,7 +639,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `performing-binary-exploitation-analysis`
 - `performing-blind-ssrf-exploitation`
 - `performing-bluetooth-security-assessment`
-- `Email Spoofing`
 - `performing-clickjacking-attack-test`
 - `performing-cloud-asset-inventory-with-cartography`
 - `performing-cloud-forensics-investigation`
@@ -636,8 +653,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `performing-container-image-hardening`
 - `performing-container-security-scanning-with-trivy`
 - `performing-content-security-policy-bypass`
-- `Account Takeover`
-- `Access with Stolen Session Cookie`
 - `performing-csrf-attack-simulation`
 - `performing-cve-prioritization-with-kev-catalog`
 - `performing-dark-web-monitoring-for-threats`
@@ -652,11 +667,9 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `performing-dynamic-analysis-with-any-run`
 - `performing-endpoint-forensics-investigation`
 - `performing-endpoint-vulnerability-remediation`
-- `Account Manipulation: Enable Account Features`
 - `performing-external-network-penetration-test`
 - `performing-false-positive-reduction-in-siem`
 - `performing-file-carving-with-foremost`
-- `Account Takeover: Exposed Login Credential`
 - `performing-firmware-malware-analysis`
 - `performing-fuzzing-with-aflplusplus`
 - `performing-gcp-penetration-testing-with-gcpbucketbrute`
@@ -669,7 +682,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `performing-http-parameter-pollution-attack`
 - `performing-ics-asset-discovery-with-claroty`
 - `performing-indicator-lifecycle-management`
-- `Account Takeover`
 - `performing-insider-threat-investigation`
 - `performing-ioc-enrichment-automation`
 - `performing-ios-app-security-assessment`
@@ -698,7 +710,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `performing-network-traffic-analysis-with-tshark`
 - `performing-network-traffic-analysis-with-zeek`
 - `performing-nist-csf-maturity-assessment`
-- `Device Fingerprint Spoofing`
 - `performing-oil-gas-cybersecurity-assessment`
 - `performing-open-source-intelligence-gathering`
 - `performing-osint-with-spiderfoot`
@@ -706,8 +717,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `performing-ot-vulnerability-assessment-with-claroty`
 - `performing-ot-vulnerability-scanning-safely`
 - `performing-packet-injection-attack`
-- `Gather Customer Information`
-- `Impersonate Account Holder`
 - `performing-physical-intrusion-assessment`
 - `performing-plc-firmware-security-analysis`
 - `performing-post-quantum-cryptography-migration`
@@ -719,9 +728,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `performing-privileged-account-discovery`
 - `performing-purple-team-atomic-testing`
 - `performing-purple-team-exercise`
-- `Account Takeover`
-- `Conversion to Physical Monetary Instruments: Cash`
-- `Account Takeover: Exposed Login Credential`
 - `performing-red-team-with-covenant`
 - `performing-s7comm-protocol-security-analysis`
 - `performing-sca-dependency-scanning-with-snyk`
@@ -730,7 +736,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `performing-security-headers-audit`
 - `performing-serverless-function-security-review`
 - `performing-service-account-audit`
-- `Device Fingerprint Spoofing`
 - `performing-soap-web-service-security-testing`
 - `performing-soc-tabletop-exercise`
 - `performing-soc2-type2-audit-preparation`
@@ -771,7 +776,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `processing-stix-taxii-feeds`
 - `profiling-threat-actor-groups`
 - `recovering-deleted-files-with-photorec`
-- `Remote Access Tools`
 - `red-teaming-llms-with-garak`
 - `relaying-ntlm-for-adcs-esc8`
 - `remediating-s3-bucket-misconfiguration`
@@ -779,7 +783,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `reverse-engineering-dotnet-malware-with-dnspy`
 - `reverse-engineering-ios-app-with-frida`
 - `reverse-engineering-malware-with-ghidra`
-- `Remote Access Tools`
 - `reverse-engineering-rust-malware`
 - `scanning-container-images-with-grype`
 - `scanning-containers-with-trivy-in-cicd`
@@ -790,7 +793,6 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `scanning-network-with-nmap-advanced`
 - `securing-agentic-ai-tool-invocation`
 - `securing-api-gateway-with-aws-waf`
-- `Account Manipulation: Change Account Details`
 - `securing-aws-lambda-execution-roles`
 - `securing-azure-with-microsoft-defender`
 - `securing-container-registry-images`
@@ -823,15 +825,12 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 - `testing-mobile-api-authentication`
 - `testing-oauth2-implementation-flaws`
 - `testing-prompt-injection-in-rag-pipelines`
-- `Conversion to Physical Monetary Instruments: Cash`
 - `testing-websocket-api-security`
-- `Stage Capabilities: SEO Poisoning`
 - `triaging-security-alerts-in-splunk`
 - `triaging-security-incident`
 - `triaging-security-incident-with-ir-playbook`
 - `triaging-vulnerabilities-with-ssvc-framework`
 - `triaging-windows-with-kape`
-- `Conversion to Physical Monetary Instruments: Cash`
 - `validating-tpm-measured-boot-attestation`
 - `verifying-build-provenance-with-slsa-sigstore`
 
@@ -840,29 +839,220 @@ Basado en `mukul975/Anthropic-Cybersecurity-Skills`. Skills de SOC, DFIR, detecc
 
 ## Business & operations (346 skills)
 
+Fuente: `alirezarezvani/claude-skills`, por categoría.
 
-Basado en `alirezarezvani/claude-skills`. Organizados por categoría.
 
+<details><summary><b>engineering-team</b> (52)</summary>
 
-<details><summary><b>business-growth</b> (5)</summary>
-
-- `business-growth-skills`
-- `contract-and-proposal-writer`
-- `customer-success-manager`
-- `revenue-operations`
-- `sales-engineer`
+- `a11y-audit`
+- `adversarial-reviewer`
+- `ai-security`
+- `aws-solution-architect`
+- `azure-cloud-architect`
+- `browserstack`
+- `cloud-security`
+- `code-reviewer`
+- `coverage`
+- `email-template-builder`
+- `engineering-skills`
+- `epic-design`
+- `extract`
+- `fix`
+- `gcp-cloud-architect`
+- `generate`
+- `google-workspace-cli`
+- `incident-commander`
+- `incident-response`
+- `init`
+- `memory-review`
+- `memory-status`
+- `migrate`
+- `ms365-tenant-manager`
+- `named-persona-adversarial-review`
+- `playwright-pro`
+- `promote`
+- `red-team`
+- `remember`
+- `report`
+- `review`
+- `security-pen-testing`
+- `self-improving-agent`
+- `senior-architect`
+- `senior-backend`
+- `senior-computer-vision`
+- `senior-data-engineer`
+- `senior-data-scientist`
+- `senior-devops`
+- `senior-frontend`
+- `senior-fullstack`
+- `senior-ml-engineer`
+- `senior-prompt-engineer`
+- `senior-qa`
+- `senior-secops`
+- `senior-security`
+- `snowflake-development`
+- `stripe-integration-expert`
+- `tdd-guide`
+- `tech-stack-evaluator`
+- `testrail`
+- `threat-detection`
 
 </details>
 
-<details><summary><b>business-operations</b> (7)</summary>
+<details><summary><b>marketing-skill</b> (48)</summary>
 
-- `business-operations-skills`
-- `capacity-planner`
-- `internal-comms`
-- `knowledge-ops`
-- `process-mapper`
-- `procurement-optimizer`
-- `vendor-management`
+- `ab-test-setup`
+- `ad-creative`
+- `aeo`
+- `analytics-tracking`
+- `app-store-optimization`
+- `brand-guidelines`
+- `campaign-analytics`
+- `churn-prevention`
+- `cold-email`
+- `competitor-alternatives`
+- `content-creator`
+- `content-humanizer`
+- `content-production`
+- `content-strategy`
+- `copy-editing`
+- `copywriting`
+- `email-sequence`
+- `form-cro`
+- `free-tool-strategy`
+- `launch-strategy`
+- `local-seo-manager`
+- `marketing-context`
+- `marketing-demand-acquisition`
+- `marketing-ideas`
+- `marketing-ops`
+- `marketing-psychology`
+- `marketing-skills`
+- `marketing-strategy-pmm`
+- `onboarding-cro`
+- `page-cro`
+- `paid-ads`
+- `paywall-upgrade-cro`
+- `popup-cro`
+- `pricing-strategy`
+- `programmatic-seo`
+- `prompt-engineer-toolkit`
+- `referral-program`
+- `schema-markup`
+- `seo-audit`
+- `signup-flow-cro`
+- `site-architecture`
+- `social-content`
+- `social-media-analyzer`
+- `social-media-manager`
+- `video-content-strategist`
+- `webinar-marketing`
+- `x-twitter-growth`
+- `youtube-full`
+
+</details>
+
+<details><summary><b>ra-qm-team</b> (17)</summary>
+
+- `agent-decision-receipts`
+- `capa-officer`
+- `eu-ai-act-specialist`
+- `fda-consultant-specialist`
+- `gdpr-dsgvo-expert`
+- `information-security-manager-iso27001`
+- `isms-audit-expert`
+- `iso42001-specialist`
+- `mdr-745-specialist`
+- `qms-audit-expert`
+- `quality-documentation-manager`
+- `quality-manager-qmr`
+- `quality-manager-qms-iso13485`
+- `ra-qm-skills`
+- `regulatory-affairs-head`
+- `risk-management-specialist`
+- `soc2-compliance`
+
+</details>
+
+<details><summary><b>engineering</b> (77)</summary>
+
+- `agent-designer`
+- `agent-harness`
+- `agent-workflow-designer`
+- `agenthub`
+- `api-design-reviewer`
+- `api-test-suite-builder`
+- `autoresearch-agent`
+- `behuman`
+- `board`
+- `browser-automation`
+- `caveman`
+- `changelog-generator`
+- `chaos-engineering`
+- `ci-cd-pipeline-builder`
+- `claude-coach`
+- `code-tour`
+- `codebase-onboarding`
+- `collab-proof`
+- `data-quality-auditor`
+- `database-designer`
+- `database-schema-designer`
+- `demo-video`
+- `dependency-auditor`
+- `docker-development`
+- `engineering-advanced-skills`
+- `env-secrets-manager`
+- `eval`
+- `feature-flags-architect`
+- `focused-fix`
+- `full-page-screenshot`
+- `git-worktree-manager`
+- `grill-me`
+- `grill-with-docs`
+- `handoff`
+- `helm-chart-builder`
+- `init`
+- `interview-system-designer`
+- `karpathy-coder`
+- `kubernetes-operator`
+- `llm-cost-optimizer`
+- `llm-wiki`
+- `loop`
+- `mcp-server-builder`
+- `merge`
+- `migration-architect`
+- `monorepo-navigator`
+- `observability-designer`
+- `performance-profiler`
+- `pr-review-expert`
+- `prompt-governance`
+- `rag-architect`
+- `resume`
+- `run`
+- `runbook-generator`
+- `sample-skill`
+- `sample-skill`
+- `secrets-vault-manager`
+- `security-guidance`
+- `self-eval`
+- `setup`
+- `ship-gate`
+- `skill-security-auditor`
+- `skill-tester`
+- `skillopt-sleep`
+- `slo-architect`
+- `spawn`
+- `spec-driven-workflow`
+- `sql-database-assistant`
+- `statistical-analyst`
+- `status`
+- `tc-tracker`
+- `tech-debt-tracker`
+- `terraform-patterns`
+- `universal-scraping-architect`
+- `workflow-builder`
+- `write-a-skill`
+- `zero-hallucination-coder`
 
 </details>
 
@@ -933,250 +1123,6 @@ Basado en `alirezarezvani/claude-skills`. Organizados por categoría.
 
 </details>
 
-<details><summary><b>commercial</b> (8)</summary>
-
-- `channel-economics`
-- `commercial-forecaster`
-- `commercial-policy`
-- `commercial-skills`
-- `deal-desk`
-- `partnerships-architect`
-- `pricing-strategist`
-- `rfp-responder`
-
-</details>
-
-<details><summary><b>compliance-os</b> (9)</summary>
-
-- `ai-act-readiness`
-- `aims-audit`
-- `compliance-os`
-- `compliance-readiness`
-- `fda-qsr-audit-prep`
-- `gdpr-audit-prep`
-- `iso13485-audit-prep`
-- `iso27001-audit-prep`
-- `soc2-audit-prep`
-
-</details>
-
-<details><summary><b>engineering-team</b> (52)</summary>
-
-- `a11y-audit`
-- `adversarial-reviewer`
-- `ai-security`
-- `aws-solution-architect`
-- `azure-cloud-architect`
-- `browserstack`
-- `cloud-security`
-- `code-reviewer`
-- `coverage`
-- `email-template-builder`
-- `engineering-skills`
-- `epic-design`
-- `extract`
-- `fix`
-- `gcp-cloud-architect`
-- `generate`
-- `google-workspace-cli`
-- `incident-commander`
-- `incident-response`
-- `init`
-- `memory-review`
-- `memory-status`
-- `migrate`
-- `ms365-tenant-manager`
-- `named-persona-adversarial-review`
-- `promote`
-- `playwright-pro`
-- `red-team`
-- `remember`
-- `report`
-- `review`
-- `security-pen-testing`
-- `self-improving-agent`
-- `senior-architect`
-- `senior-backend`
-- `senior-computer-vision`
-- `senior-data-engineer`
-- `senior-data-scientist`
-- `senior-devops`
-- `senior-frontend`
-- `senior-fullstack`
-- `senior-ml-engineer`
-- `senior-prompt-engineer`
-- `senior-qa`
-- `senior-secops`
-- `senior-security`
-- `snowflake-development`
-- `stripe-integration-expert`
-- `tdd-guide`
-- `tech-stack-evaluator`
-- `testrail`
-- `threat-detection`
-
-</details>
-
-<details><summary><b>engineering</b> (77)</summary>
-
-- `agent-designer`
-- `agent-harness`
-- `agent-workflow-designer`
-- `agenthub`
-- `api-design-reviewer`
-- `api-test-suite-builder`
-- `autoresearch-agent`
-- `behuman`
-- `board`
-- `browser-automation`
-- `caveman`
-- `changelog-generator`
-- `chaos-engineering`
-- `ci-cd-pipeline-builder`
-- `claude-coach`
-- `code-tour`
-- `codebase-onboarding`
-- `collab-proof`
-- `data-quality-auditor`
-- `database-designer`
-- `database-schema-designer`
-- `demo-video`
-- `dependency-auditor`
-- `docker-development`
-- `engineering-advanced-skills`
-- `env-secrets-manager`
-- `eval`
-- `feature-flags-architect`
-- `focused-fix`
-- `full-page-screenshot`
-- `git-worktree-manager`
-- `grill-me`
-- `grill-with-docs`
-- `handoff`
-- `helm-chart-builder`
-- `init`
-- `interview-system-designer`
-- `karpathy-coder`
-- `kubernetes-operator`
-- `llm-cost-optimizer`
-- `llm-wiki`
-- `loop`
-- `mcp-server-builder`
-- `merge`
-- `migration-architect`
-- `monorepo-navigator`
-- `observability-designer`
-- `performance-profiler`
-- `pr-review-expert`
-- `prompt-governance`
-- `rag-architect`
-- `resume`
-- `run`
-- `runbook-generator`
-- `sample-skill`
-- `secrets-vault-manager`
-- `security-guidance`
-- `self-eval`
-- `setup`
-- `ship-gate`
-- `skill-security-auditor`
-- `skill-tester`
-- `sample-skill`
-- `skillopt-sleep`
-- `slo-architect`
-- `spawn`
-- `spec-driven-workflow`
-- `sql-database-assistant`
-- `statistical-analyst`
-- `status`
-- `tc-tracker`
-- `tech-debt-tracker`
-- `terraform-patterns`
-- `universal-scraping-architect`
-- `workflow-builder`
-- `write-a-skill`
-- `zero-hallucination-coder`
-
-</details>
-
-<details><summary><b>finance</b> (4)</summary>
-
-- `business-investment-advisor`
-- `finance-skills`
-- `financial-analyst`
-- `saas-metrics-coach`
-
-</details>
-
-<details><summary><b>markdown-html</b> (5)</summary>
-
-- `design-system`
-- `markdown-html-orchestrator`
-- `md-document`
-- `md-review`
-- `md-slides`
-
-</details>
-
-<details><summary><b>marketing-skill</b> (48)</summary>
-
-- `ab-test-setup`
-- `ad-creative`
-- `aeo`
-- `analytics-tracking`
-- `app-store-optimization`
-- `brand-guidelines`
-- `campaign-analytics`
-- `churn-prevention`
-- `cold-email`
-- `competitor-alternatives`
-- `content-creator`
-- `content-humanizer`
-- `content-production`
-- `content-strategy`
-- `copy-editing`
-- `copywriting`
-- `email-sequence`
-- `form-cro`
-- `free-tool-strategy`
-- `launch-strategy`
-- `local-seo-manager`
-- `marketing-context`
-- `marketing-demand-acquisition`
-- `marketing-ideas`
-- `marketing-ops`
-- `marketing-psychology`
-- `marketing-skills`
-- `marketing-strategy-pmm`
-- `onboarding-cro`
-- `page-cro`
-- `paid-ads`
-- `paywall-upgrade-cro`
-- `popup-cro`
-- `pricing-strategy`
-- `programmatic-seo`
-- `prompt-engineer-toolkit`
-- `referral-program`
-- `schema-markup`
-- `seo-audit`
-- `signup-flow-cro`
-- `site-architecture`
-- `social-content`
-- `social-media-analyzer`
-- `social-media-manager`
-- `video-content-strategist`
-- `webinar-marketing`
-- `x-twitter-growth`
-- `youtube-full`
-
-</details>
-
-<details><summary><b>marketing</b> (1)</summary>
-
-- `landing`
-
-</details>
-
 <details><summary><b>product-team</b> (17)</summary>
 
 - `agile-product-owner`
@@ -1196,6 +1142,20 @@ Basado en `alirezarezvani/claude-skills`. Organizados por categoría.
 - `spec-to-repo`
 - `ui-design-system`
 - `ux-researcher-designer`
+
+</details>
+
+<details><summary><b>compliance-os</b> (9)</summary>
+
+- `ai-act-readiness`
+- `aims-audit`
+- `compliance-os`
+- `compliance-readiness`
+- `fda-qsr-audit-prep`
+- `gdpr-audit-prep`
+- `iso13485-audit-prep`
+- `iso27001-audit-prep`
+- `soc2-audit-prep`
 
 </details>
 
@@ -1229,25 +1189,47 @@ Basado en `alirezarezvani/claude-skills`. Organizados por categoría.
 
 </details>
 
-<details><summary><b>ra-qm-team</b> (17)</summary>
+<details><summary><b>business-growth</b> (5)</summary>
 
-- `agent-decision-receipts`
-- `capa-officer`
-- `eu-ai-act-specialist`
-- `fda-consultant-specialist`
-- `gdpr-dsgvo-expert`
-- `information-security-manager-iso27001`
-- `isms-audit-expert`
-- `iso42001-specialist`
-- `mdr-745-specialist`
-- `qms-audit-expert`
-- `quality-documentation-manager`
-- `quality-manager-qmr`
-- `quality-manager-qms-iso13485`
-- `ra-qm-skills`
-- `regulatory-affairs-head`
-- `risk-management-specialist`
-- `soc2-compliance`
+- `business-growth-skills`
+- `contract-and-proposal-writer`
+- `customer-success-manager`
+- `revenue-operations`
+- `sales-engineer`
+
+</details>
+
+<details><summary><b>finance</b> (4)</summary>
+
+- `business-investment-advisor`
+- `finance-skills`
+- `financial-analyst`
+- `saas-metrics-coach`
+
+</details>
+
+<details><summary><b>business-operations</b> (7)</summary>
+
+- `business-operations-skills`
+- `capacity-planner`
+- `internal-comms`
+- `knowledge-ops`
+- `process-mapper`
+- `procurement-optimizer`
+- `vendor-management`
+
+</details>
+
+<details><summary><b>commercial</b> (8)</summary>
+
+- `channel-economics`
+- `commercial-forecaster`
+- `commercial-policy`
+- `commercial-skills`
+- `deal-desk`
+- `partnerships-architect`
+- `pricing-strategist`
+- `rfp-responder`
 
 </details>
 
@@ -1274,3 +1256,510 @@ Basado en `alirezarezvani/claude-skills`. Organizados por categoría.
 - `syllabus`
 
 </details>
+
+<details><summary><b>markdown-html</b> (5)</summary>
+
+- `design-system`
+- `markdown-html-orchestrator`
+- `md-document`
+- `md-review`
+- `md-slides`
+
+</details>
+
+<details><summary><b>marketing</b> (1)</summary>
+
+- `landing`
+
+</details>
+
+## NVIDIA (321 skills)
+
+GPU/CUDA, TAO, DOCA, Dynamo, Triton, inferencia y frameworks de NVIDIA. Fuente: `NVIDIA/skills`.
+
+<details><summary>Ver los 321 skills</summary>
+
+- `accelerated-computing-cudf`
+- `aiq-deploy`
+- `aiq-research`
+- `amc-run-sample-calibration`
+- `amc-run-video-calibration`
+- `amc-setup-calibration-stack`
+- `cudaq-guide`
+- `cufolio`
+- `cuopt-developer`
+- `cuopt-install`
+- `cuopt-multi-objective-exploration`
+- `cuopt-numerical-optimization-api`
+- `cuopt-numerical-optimization-formulation`
+- `cuopt-routing-api-python`
+- `cuopt-server-api-python`
+- `cupynumeric-hdf5`
+- `cupynumeric-install`
+- `cupynumeric-migration-readiness`
+- `cupynumeric-parallel-data-load`
+- `dali-dynamic-mode`
+- `data-designer`
+- `deepstream-dev`
+- `deepstream-generate-pipeline`
+- `deepstream-import-vision-model`
+- `deepstream-profile-pipeline`
+- `deepstream-sop`
+- `dicom-metadata-extract`
+- `dicom-series-preflight`
+- `dicom-series-to-volume`
+- `digital-health-clinical-asr-build`
+- `digital-health-clinical-asr-eval`
+- `digital-health-clinical-asr-finetune`
+- `digital-health-clinical-asr-setup`
+- `doca-aes-gcm`
+- `doca-argp`
+- `doca-argus`
+- `doca-bare-metal-deployment`
+- `doca-bench`
+- `doca-bench-extension`
+- `doca-bf3-deployment`
+- `doca-bf4-deployment`
+- `doca-caps`
+- `doca-collectx-deployment`
+- `doca-comch`
+- `doca-comm-channel-admin`
+- `doca-common`
+- `doca-compress`
+- `doca-container-deployment`
+- `doca-debug`
+- `doca-devemu`
+- `doca-dma`
+- `doca-dms`
+- `doca-dpa`
+- `doca-dpa-hl-tracer`
+- `doca-dpdk-bridge`
+- `doca-erasure-coding`
+- `doca-eth`
+- `doca-firefly`
+- `doca-flow`
+- `doca-flow-dpa-perf`
+- `doca-flow-dpa-provider`
+- `doca-flow-grpc-server`
+- `doca-flow-perf`
+- `doca-flow-tune`
+- `doca-gpi`
+- `doca-gpunetio`
+- `doca-gpunetio-ib-write-bw`
+- `doca-gpunetio-ib-write-lat`
+- `doca-hardware-safety`
+- `doca-mgmt`
+- `doca-pcc`
+- `doca-pcc-counters`
+- `doca-pcc-ztr-rttcc-algo`
+- `doca-programming-guide`
+- `doca-public-knowledge-map`
+- `doca-rdma`
+- `doca-rdmi`
+- `doca-rmax`
+- `doca-setup`
+- `doca-sha`
+- `doca-sha-offload-engine`
+- `doca-socket-relay`
+- `doca-spcx-cc`
+- `doca-sta`
+- `doca-structured-tools-contract`
+- `doca-telemetry`
+- `doca-telemetry-exporter`
+- `doca-telemetry-utils`
+- `doca-upgrade`
+- `doca-urom`
+- `doca-urom-svc`
+- `doca-verbs`
+- `doca-version`
+- `dynamo-interconnect-check`
+- `dynamo-recipe-runner`
+- `dynamo-router-starter`
+- `dynamo-troubleshoot`
+- `earth2studio-create-datasource`
+- `earth2studio-create-diagnostic`
+- `earth2studio-create-prognostic`
+- `earth2studio-data-fetch`
+- `earth2studio-deterministic-forecast`
+- `earth2studio-discover`
+- `earth2studio-install`
+- `holoscan-install-conda`
+- `holoscan-install-container`
+- `holoscan-install-debian`
+- `holoscan-install-source`
+- `holoscan-install-wheel`
+- `holoscan-setup`
+- `hsb-app`
+- `hsb-flash`
+- `hsb-setup`
+- `hsb-test`
+- `i4h-catheter-navigation`
+- `i4h-catheter-navigation-digital-twin`
+- `i4h-catheter-navigation-e2e`
+- `i4h-catheter-navigation-render-drr`
+- `i4h-catheter-navigation-setup`
+- `i4h-catheter-navigation-smoke`
+- `i4h-catheter-navigation-viewport`
+- `i4h-lerobot-viz`
+- `i4h-workflow`
+- `i4h-workflow-create`
+- `i4h-workflow-dataset-annotate`
+- `i4h-workflow-dataset-convert`
+- `i4h-workflow-dataset-mimic`
+- `i4h-workflow-dataset-replay`
+- `i4h-workflow-dataset-teleop`
+- `i4h-workflow-e2e`
+- `i4h-workflow-finetune`
+- `i4h-workflow-scene-edit`
+- `i4h-workflow-setup`
+- `i4h-workflow-validate`
+- `jetson-build-source`
+- `jetson-customize-camera`
+- `jetson-customize-clocks`
+- `jetson-customize-fan`
+- `jetson-customize-mgbe`
+- `jetson-customize-nvpmodel`
+- `jetson-customize-pcie`
+- `jetson-customize-pinmux`
+- `jetson-customize-uphy`
+- `jetson-customize-usb`
+- `jetson-derive-carrier`
+- `jetson-diagnostic`
+- `jetson-download-bsp`
+- `jetson-flash-image`
+- `jetson-generate-kb`
+- `jetson-headless-mode`
+- `jetson-inference-mem-tune`
+- `jetson-init-image`
+- `jetson-init-source`
+- `jetson-init-target`
+- `jetson-link-docs`
+- `jetson-llm-benchmark`
+- `jetson-llm-serve`
+- `jetson-memory-audit`
+- `jetson-optimize-memory`
+- `jetson-package`
+- `jetson-print-bsp-info`
+- `jetson-print-device-info`
+- `jetson-promote-image`
+- `jetson-quick-start`
+- `jetson-set-target`
+- `jetson-speculative-decoding`
+- `jetson-validate-image`
+- `launch-nemo-rl`
+- `mcore-create-issue`
+- `mcore-linting-and-formatting`
+- `mcore-run-on-slurm`
+- `mcore-split-pr`
+- `mcore-testing`
+- `nemo-automodel-distributed-training`
+- `nemo-automodel-launcher-config`
+- `nemo-automodel-model-onboarding`
+- `nemo-automodel-recipe-development`
+- `nemo-data-designer-plugin`
+- `nemo-evaluator-plugin`
+- `nemo-mbridge-mlm-bridge-training`
+- `nemo-mbridge-multi-node-slurm`
+- `nemo-mbridge-perf-activation-recompute`
+- `nemo-mbridge-perf-cpu-offloading`
+- `nemo-mbridge-perf-cuda-graphs`
+- `nemo-mbridge-perf-expert-parallel-overlap`
+- `nemo-mbridge-perf-hierarchical-context-parallel`
+- `nemo-mbridge-perf-megatron-fsdp`
+- `nemo-mbridge-perf-memory-tuning`
+- `nemo-mbridge-perf-moe-comm-overlap`
+- `nemo-mbridge-perf-moe-dispatcher-selection`
+- `nemo-mbridge-perf-moe-hardware-configs`
+- `nemo-mbridge-perf-moe-long-context`
+- `nemo-mbridge-perf-moe-optimization-workflow`
+- `nemo-mbridge-perf-moe-vlm-training`
+- `nemo-mbridge-perf-parallelism-strategies`
+- `nemo-mbridge-perf-sequence-packing`
+- `nemo-mbridge-perf-tp-dp-comm-overlap`
+- `nemo-mbridge-recipe-recommender`
+- `nemo-mbridge-resiliency`
+- `nemo-relay-debug-runtime-integration`
+- `nemo-relay-get-started`
+- `nemo-relay-install`
+- `nemo-relay-instrument-calls`
+- `nemo-relay-instrument-context-isolation`
+- `nemo-relay-instrument-typed-wrappers`
+- `nemo-relay-migrate-from-flow`
+- `nemo-relay-plugin-adaptive-tuning`
+- `nemo-relay-plugin-build`
+- `nemo-relay-plugin-observability`
+- `nemo-retriever`
+- `nemo-rl-auto-research`
+- `nemo-rl-brev-etiquette`
+- `nemo-rl-docs`
+- `nemo-rl-session-memory`
+- `nemoclaw-user-guide`
+- `nemotron-asr-finetune`
+- `nemotron-customize`
+- `nemotron-policy-generator`
+- `nemotron-retrieval-recipes`
+- `nemotron-speech`
+- `nv-generate-ct-rflow`
+- `nv-generate-mr`
+- `nv-generate-mr-brain`
+- `nv-generate-mr-brain-finetune`
+- `nv-generate-vae-finetune`
+- `nv-reason-cxr`
+- `nv-segment-ct`
+- `nv-segment-ct-finetune`
+- `nv-segment-ctmr`
+- `nvidia-skill-finder`
+- `omniverse-cad-to-simready`
+- `omniverse-realtime-viewer`
+- `omniverse-usd-performance-tuning`
+- `physical-ai-defect-image-generation`
+- `physical-ai-infrastructure-setup-and-resilient-scaling`
+- `physical-ai-neural-reconstruction`
+- `physical-ai-people-attribute-search`
+- `physical-ai-video-data-augmentation`
+- `physicsnemo-discover`
+- `rag-blueprint`
+- `rag-eval`
+- `rag-perf`
+- `skill-card-generator`
+- `tao-analyze-changenet-rca`
+- `tao-analyze-gaps-visual-changenet`
+- `tao-analyze-gaps-vlm-bcq`
+- `tao-convert-dataset-format`
+- `tao-finetune-clip`
+- `tao-finetune-cosmos-embed`
+- `tao-finetune-cosmos-reason`
+- `tao-finetune-huggingface-model`
+- `tao-generate-image-grounding`
+- `tao-generate-referring-expressions`
+- `tao-generate-video-reasoning-annotations`
+- `tao-launch-workflow`
+- `tao-list-capabilities`
+- `tao-mine-aoi-images`
+- `tao-port-huggingface-model`
+- `tao-route-visual-changenet-samples`
+- `tao-run-automl`
+- `tao-run-automl-deft-pipeline`
+- `tao-run-deft-aoi`
+- `tao-run-inference-service`
+- `tao-run-on-brev`
+- `tao-run-on-kubernetes`
+- `tao-run-on-local-docker`
+- `tao-run-on-slurm`
+- `tao-run-platform`
+- `tao-setup-nvidia-gpu-host`
+- `tao-train-action-recognition`
+- `tao-train-bevfusion`
+- `tao-train-centerpose`
+- `tao-train-deformable-detr`
+- `tao-train-depth-anything-v2`
+- `tao-train-dino`
+- `tao-train-fast-foundation-stereo`
+- `tao-train-foundation-stereo`
+- `tao-train-grounding-dino`
+- `tao-train-image-classification`
+- `tao-train-mask-auto-encoder`
+- `tao-train-mask-auto-label`
+- `tao-train-mask-grounding-dino`
+- `tao-train-mask2former`
+- `tao-train-metric-learning-recognition`
+- `tao-train-nvdinov2`
+- `tao-train-nvpanoptix3d`
+- `tao-train-ocdnet`
+- `tao-train-ocrnet`
+- `tao-train-oneformer`
+- `tao-train-optical-inspection`
+- `tao-train-pointpillars`
+- `tao-train-pose-classification`
+- `tao-train-reid`
+- `tao-train-rtdetr`
+- `tao-train-segformer`
+- `tao-train-single-step`
+- `tao-train-sparse4d`
+- `tao-train-visual-changenet`
+- `tao-validate-dataset-format`
+- `tilegym-adding-cutile-kernel`
+- `tilegym-converting-cutile-to-julia`
+- `tilegym-converting-cutile-to-triton`
+- `tilegym-cutile-autotuning`
+- `tilegym-cutile-python`
+- `tilegym-improve-cutile-kernel-perf`
+- `tilegym-monkey-patch-kernels-to-transformers`
+- `vss-ask-video`
+- `vss-deploy-dense-captioning`
+- `vss-deploy-detection-tracking-2d`
+- `vss-deploy-detection-tracking-3d`
+- `vss-deploy-profile`
+- `vss-deploy-video-embedding`
+- `vss-generate-video-calibration`
+- `vss-generate-video-report`
+- `vss-manage-alerts`
+- `vss-manage-video-io-storage`
+- `vss-query-analytics`
+- `vss-search-archive`
+- `vss-setup-behavior-analytics`
+- `vss-setup-video-analytics-api`
+- `vss-summarize-video`
+
+</details>
+
+
+## Scientific (150 skills)
+
+Bioinformática, forecasting, química, datos científicos, formatos (BIDS, etc.). Fuente: `K-Dense-AI/claude-scientific-skills`.
+
+<details><summary>Ver los 150 skills</summary>
+
+- `adaptyv`
+- `aeon`
+- `anndata`
+- `arbor`
+- `arboreto`
+- `astropy`
+- `autoskill`
+- `benchling-integration`
+- `bgpt-paper-search`
+- `bids`
+- `biopython`
+- `bioservices`
+- `bulk-rnaseq`
+- `cellxgene-census`
+- `cirq`
+- `citation-management`
+- `clinical-decision-support`
+- `clinical-reports`
+- `cobrapy`
+- `consciousness-council`
+- `dask`
+- `database-lookup`
+- `datamol`
+- `deepchem`
+- `deeptools`
+- `depmap`
+- `dhdna-profiler`
+- `diffdock`
+- `dnanexus-integration`
+- `docx`
+- `esm`
+- `etetoolkit`
+- `exa-search`
+- `experimental-design`
+- `exploratory-data-analysis`
+- `flowio`
+- `fluidsim`
+- `generate-image`
+- `geniml`
+- `genomic-intelligence`
+- `geomaster`
+- `geopandas`
+- `get-available-resources`
+- `gget`
+- `ginkgo-cloud-lab`
+- `glycoengineering`
+- `gtars`
+- `histolab`
+- `hugging-science`
+- `hypogenic`
+- `hypothesis-generation`
+- `imaging-data-commons`
+- `infographics`
+- `iso-13485-certification`
+- `labarchive-integration`
+- `lamindb`
+- `latchbio-integration`
+- `latex-posters`
+- `liteparse`
+- `literature-review`
+- `markdown-mermaid-writing`
+- `market-research-reports`
+- `markitdown`
+- `matchms`
+- `matlab`
+- `matplotlib`
+- `medchem`
+- `modal`
+- `molecular-dynamics`
+- `molfeat`
+- `networkx`
+- `neurokit2`
+- `neuropixels-analysis`
+- `nextflow`
+- `omero-integration`
+- `onekgpd`
+- `open-notebook`
+- `opentrons-integration`
+- `optimize-for-gpu`
+- `pacsomatic`
+- `paper-lookup`
+- `paperzilla`
+- `parallel-web`
+- `pathml`
+- `pathway-enrichment`
+- `pdf`
+- `peer-review`
+- `pennylane`
+- `phylogenetics`
+- `pi-agent`
+- `polars`
+- `polars-bio`
+- `pptx`
+- `pptx-posters`
+- `primekg`
+- `protocolsio-integration`
+- `pufferlib`
+- `pydeseq2`
+- `pydicom`
+- `pyhealth`
+- `pylabrobot`
+- `pymatgen`
+- `pymc`
+- `pymoo`
+- `pyopenms`
+- `pysam`
+- `pytdc`
+- `pytorch-lightning`
+- `pyzotero`
+- `qiskit`
+- `qutip`
+- `rdkit`
+- `research-grants`
+- `research-lookup`
+- `rowan`
+- `scanpy`
+- `scholar-evaluation`
+- `scientific-brainstorming`
+- `scientific-critical-thinking`
+- `scientific-schematics`
+- `scientific-slides`
+- `scientific-visualization`
+- `scientific-writing`
+- `scikit-bio`
+- `scikit-learn`
+- `scikit-survival`
+- `scvelo`
+- `scvi-tools`
+- `seaborn`
+- `shap`
+- `simpy`
+- `stable-baselines3`
+- `statistical-analysis`
+- `statistical-power`
+- `statsmodels`
+- `sympy`
+- `tamarind`
+- `tiledbvcf`
+- `timesfm-forecasting`
+- `torch-geometric`
+- `torchdrug`
+- `transformers`
+- `treatment-plans`
+- `umap-learn`
+- `usfiscaldata`
+- `vaex`
+- `venue-templates`
+- `what-if-oracle`
+- `xlsx`
+- `zarr-python`
+
+</details>
+
