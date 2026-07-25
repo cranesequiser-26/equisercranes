@@ -1,7 +1,7 @@
 # Catálogo de skills activos
 
 
-140 skills instalados en `.claude/skills/` y disponibles automáticamente en Claude Code.
+147 skills en `.claude/skills/`, disponibles automáticamente en Claude Code.
 
 
 | Skill | Descripción |
@@ -19,6 +19,13 @@
 | `brand` | Brand voice, visual identity, messaging frameworks, asset management, brand consistency. Activate for branded content, tone of voice, marketing assets, brand compliance, style guides. |
 | `brandkit` | Premium brand-kit image generation skill for creating high-end brand-guidelines boards, logo systems, identity decks, and visual-world presentations. Trained for minimalist, cinematic, editorial, dark |
 | `industrial-brutalist-ui` | Raw mechanical interfaces fusing Swiss typographic print with military terminal aesthetics. Rigid grids, extreme type scale contrast, utilitarian color, analog degradation effects. For data-heavy dash |
+| `cavecrew` | > |
+| `caveman` | > |
+| `caveman-commit` | > |
+| `caveman-compress` | > |
+| `caveman-help` | > |
+| `caveman-review` | > |
+| `caveman-stats` | > |
 | `churn-prevention` | When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' ' |
 | `claude-handoff` | Hand the current conversation off to a fresh background agent that picks up the work immediately. |
 | `co-marketing` | When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who sho |

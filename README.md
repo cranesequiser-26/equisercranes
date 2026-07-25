@@ -7,7 +7,7 @@ automáticamente); los dos catálogos masivos (ciberseguridad y negocio) viven e
 
 ## Cómo funciona
 
-- **`.claude/skills/`** — 140 skills activos. Claude Code los descubre automáticamente
+- **`.claude/skills/`** — 147 skills activos. Claude Code los descubre automáticamente
   al trabajar en este repo (o cópialos a `~/.claude/skills/` para tenerlos globalmente).
   Ver el listado completo en [`CATALOG.md`](./CATALOG.md).
 - **`skills-library/`** — 1.163 skills adicionales (817 de ciberseguridad + 346 de
@@ -26,6 +26,7 @@ automáticamente); los dos catálogos masivos (ciberseguridad y negocio) viven e
 | Fuente | Skills | Tema |
 |---|---|---|
 | [obra/superpowers](https://github.com/obra/superpowers) | 14 | Flujos de desarrollo: TDD, debugging sistemático, planes, code review, git worktrees |
+| [JuliusBrussee/caveman](https://github.com/JuliusBrussee/caveman) | 7 | Commits, review, compresión y stats de contexto estilo "caveman" |
 | [coreyhaines31/marketingskills](https://github.com/coreyhaines31/marketingskills) | 48 | Marketing: SEO, emails, social, PR, copy, analytics, prospecting |
 | [mattpocock/skills](https://github.com/mattpocock/skills) | ~37 | Ingeniería y productividad TypeScript (grill-me, tdd, code-review, research…) |
 | [zubair-trabzada/geo-seo-claude](https://github.com/zubair-trabzada/geo-seo-claude) | 15 | GEO / SEO para motores de IA (auditoría, schema, llms.txt, citabilidad) |
@@ -69,6 +70,7 @@ ejecutan por su cuenta. Se documentan aquí como referencia:
 | [jamiepine/voicebox](https://github.com/jamiepine/voicebox) | Herramienta de voz |
 | [steipete/CodexBar](https://github.com/steipete/CodexBar) | App de barra de menú para Codex |
 | [garrytan/gstack](https://github.com/garrytan/gstack) | Stack/plantilla de proyecto |
+| [cporter202/API-mega-list](https://github.com/cporter202/API-mega-list) | Catálogo enorme de APIs por categoría (referencia, no skills) |
 | [harness/harness](https://github.com/harness/harness) | Plataforma CI/CD |
 | [Mesabloo/diagnose](https://github.com/Mesabloo/diagnose) | Librería de diagnósticos (Haskell) |
 | [nv-tlabs/Fixer](https://github.com/nv-tlabs/Fixer) | Herramienta de NVIDIA Toronto AI Lab |
@@ -92,7 +94,7 @@ términos de servicio:
 ## Estructura
 
 ```
-.claude/skills/          # 140 skills activos (auto-cargados)
+.claude/skills/          # 147 skills activos (auto-cargados)
 skills-library/
   cybersecurity/         # 817 skills (activar bajo demanda)
   business/              # 346 skills por categoría
